@@ -1,0 +1,5 @@
+# Netlify/Vercel redirects for SPA
+/*    /index.html   200
+
+# Optional: Redirect www to non-www
+# https://www.xalilov.uz/*  https://xalilov.uz/:splat  301!
