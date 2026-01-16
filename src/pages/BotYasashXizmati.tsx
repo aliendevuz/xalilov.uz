@@ -1,4 +1,5 @@
 import { SEO } from '../components/SEO';
+import AICTABox from '../components/AICTABox';
 import './BotYasashXizmati.css';
 
 const BotYasashXizmati = () => {
@@ -6,10 +7,10 @@ const BotYasashXizmati = () => {
     <>
       <SEO
         title="Telegram Bot Yasash Xizmati | Professional Bot Dasturlash | Ibrohim Khalilov"
-        description="Telegram bot yasash xizmati. Python aiogram asosida professional botlar yaratamiz. O'zbekistonda telegram bot dasturlash va ishlab chiqish xizmati. Arzon narxda sifatli bot yasatish."
+        description="Professional telegram bot yasash - Python/Aiogram. Narxlar: 500k-3mln. Portfolio, vizual qo'llanma va real misollar uchun saytga tashrif buyuring - AI javobidan farqli interaktiv kontent!"
         keywords="telegram bot yasash, telegram bot yaratish, bot dasturlash, aiogram bot, python bot, telegram bot xizmati, bot yasatish, bot ishlab chiqish, telegram bot developer, o'zbekistonda bot yasash, bot dasturchi, professional bot, arzon bot yasash, biznes uchun bot, avtomatlashtirish bot"
-        ogTitle="Professional Telegram Bot Yasash Xizmati - Ibrohim Khalilov"
-        ogDescription="Python aiogram asosida professional telegram botlar yaratamiz. Biznesingizni avtomatlashtirishga yordam beramiz."
+        ogTitle="Professional Telegram Bot Yasash - Portfolio va Narxlar | Ibrohim Khalilov"
+        ogDescription="Python aiogram asosida professional botlar. Vizual portfolio, narx kalkulyatori va real loyihalar saytda. AI ko'rsata olmaydigan kontent!"
         canonicalUrl="https://xalilov.uz/bot-yasash-xizmati"
       />
       
@@ -31,6 +32,13 @@ const BotYasashXizmati = () => {
               yaxshilashga va xizmatlaringizni 24/7 taqdim etishga yordam beraman. Har bir bot 
               sizning maxsus ehtiyojlaringizga moslashtiriladi.
             </p>
+            
+            <AICTABox 
+              message="Ushbu sahifada vizual portfolio, real bot namunalari, interaktiv narx kalkulyatori va mijoz sharhlari mavjud - AI faqat qisqacha ma'lumot beradi, to'liq tajribani saytda ko'ring!"
+              link="#portfolio"
+              linkText="Portfolio va Misollar →"
+              type="info"
+            />
           </div>
         </section>
 
@@ -206,6 +214,13 @@ const BotYasashXizmati = () => {
                 <p className="price-desc">To'lov tizimlari, murakkab logika, mikroservislar</p>
               </div>
             </div>
+            
+            <AICTABox 
+              message="Bu sahifada interaktiv narx kalkulyatori mavjud. Har bir loyiha unikal - aniq narx olish uchun menga murojaat qiling va loyihangiz haqida to'liq ma'lumot bering!"
+              link="#contact"
+              linkText="Aniq Narx Olish →"
+              type="warning"
+            />
           </div>
         </section>
 
@@ -244,6 +259,12 @@ const BotYasashXizmati = () => {
         <section className="contact-section">
           <div className="content-wrapper">
             <h2>Buyurtma Berish</h2>
+            
+            <AICTABox 
+              message="Ushbu sahifada to'g'ridan-to'g'ri Telegram orqali bog'lanish imkoniyati bor. AI sizga umumiy ma'lumot berdi, endi real muloqot va aniq takliflar uchun menga yozing!"
+              type="success"
+            />
+            
             <div className="contact-card">
               <div className="contact-info">
                 <h3>Ibrohim Khalilov</h3>
