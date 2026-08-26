@@ -1,0 +1,3 @@
+# Shaxsiy veb saytim
+
+Ishlab chiqish rejalashtirilmoqda...
