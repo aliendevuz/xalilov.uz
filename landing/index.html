@@ -3,18 +3,28 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ibrohim Xalilov — Dasturchi</title>
-<meta name="description" content="Ibrohim Xalilov — Sun'iy intellekt yo'nalishi talabasi va Android dasturchi. Dasturlash xizmatlari uchun bog'lanishingiz mumkin.">
-<meta property="og:title" content="Ibrohim Xalilov — Dasturchi">
-<meta property="og:description" content="Sun'iy intellekt yo'nalishi talabasi va Android dasturchi. Dasturlash xizmatlari uchun bog'laning.">
-<meta property="og:type" content="website">
+<title>Ibrohim Xalilov — shaxsiy sahifa</title>
+<meta name="description" content="Ibrohim Xalilov: Toshkentda yashovchi sun'iy intellekt yo'nalishi talabasi va Android dasturchi. Rasmiy shaxsiy sahifa — tajriba, ko'nikmalar va bog'lanish uchun havolalar.">
+<link rel="canonical" href="https://xalilov.uz/">
+<meta name="author" content="Ibrohim Xalilov">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:title" content="Ibrohim Xalilov — shaxsiy sahifa">
+<meta property="og:description" content="Toshkentda yashovchi sun'iy intellekt yo'nalishi talabasi va Android dasturchining rasmiy shaxsiy sahifasi.">
+<meta property="og:type" content="profile">
+<meta property="profile:first_name" content="Ibrohim">
+<meta property="profile:last_name" content="Xalilov">
+<meta property="og:url" content="https://xalilov.uz/">
+<meta property="og:site_name" content="xalilov.uz">
 <meta property="og:locale" content="uz_UZ">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta property="og:locale:alternate" content="en_US">
 <meta property="og:image" content="https://xalilov.uz/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Ibrohim Xalilov">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Ibrohim Xalilov — Dasturchi">
-<meta name="twitter:description" content="Sun'iy intellekt yo'nalishi talabasi va Android dasturchi. Dasturlash xizmatlari uchun bog'laning.">
+<meta name="twitter:title" content="Ibrohim Xalilov — shaxsiy sahifa">
+<meta name="twitter:description" content="Toshkentda yashovchi sun'iy intellekt yo'nalishi talabasi va Android dasturchining rasmiy shaxsiy sahifasi.">
 <meta name="twitter:image" content="https://xalilov.uz/og-image.png">
 <meta name="theme-color" content="#0b0d12">
 <link rel="icon" href="favicon.ico" sizes="any">
@@ -23,6 +33,37 @@
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="preload" href="avatar.png" as="image">
 <link rel="preload" href="project-icon.webp" as="image">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://xalilov.uz/#person",
+  "name": "Ibrohim Xalilov",
+  "alternateName": ["Ibrohim Khalilov", "Ибрахим Халилов"],
+  "url": "https://xalilov.uz/",
+  "image": "https://xalilov.uz/avatar.png",
+  "jobTitle": "Android dasturchi",
+  "email": "mailto:xalilov.dev@gmail.com",
+  "nationality": "UZ",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Toshkent",
+    "addressCountry": "UZ"
+  },
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "PDP University"
+  },
+  "knowsAbout": ["Android", "Kotlin", "Java", "Jetpack Compose", "Sun'iy intellekt"],
+  "knowsLanguage": ["uz", "ru", "en"],
+  "sameAs": [
+    "https://github.com/aliendevuz",
+    "https://linkedin.com/in/ibrohim-xalilov",
+    "https://t.me/ibrohim_xalilov",
+    "https://hello-world.uz/"
+  ]
+}
+</script>
 <style>
   :root {
     --bg: #f7f8fa;
@@ -80,6 +121,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 8px;
+    width: 100%;
     max-width: 560px;
     margin: 0 auto;
     padding: 24px 0px 8px;
@@ -295,6 +337,9 @@
   }
   .github-link:hover { opacity: 0.85; }
   .project a:not(.github-link):hover { opacity: 0.9; }
+  .site-note { font-size: 13.5px; color: var(--muted); margin: 0 0 18px; }
+  .site-note a { color: var(--accent-2); text-decoration: none; }
+  .site-note a:hover { text-decoration: underline; }
   .links { display: flex; flex-wrap: wrap; gap: 10px; }
   .links a {
     display: inline-flex; align-items: center; gap: 8px;
@@ -317,7 +362,7 @@
   .links .linkedin-link { background: #0A66C2; }
   .links .github-link-full { background: #181717; }
   .links .email-link { background: #EA4335; }
-  footer { text-align: center; margin-block: 8px; font-size: 12px; color: var(--muted); }
+  footer { width: 100%; text-align: center; margin-block: 8px; font-size: 12px; color: var(--muted); }
   [data-i18n-hide] { display: none; }
 
   @media (max-width: 480px) {
@@ -453,15 +498,15 @@
     <div class="profile-header">
       <img class="avatar" src="avatar.png" alt="Ibrohim Xalilov">
       <div class="profile-text">
-        <h1 data-i18n="name"></h1>
-        <p class="role" data-i18n="role"></p>
-        <p class="location" data-i18n="location"></p>
+        <h1 data-i18n="name">Ibrohim Xalilov</h1>
+        <p class="role" data-i18n="role">Sun'iy intellekt yo'nalishi talabasi<br>Android dasturchi</p>
+        <p class="location" data-i18n="location">Toshkent, O'zbekiston</p>
       </div>
     </div>
 
-    <p class="lead" data-i18n="summary"></p>
+    <p class="lead" data-i18n="summary">Assalomu alaykum! Men Ibrohim Xalilov &mdash; Toshkentda yashaydigan dasturchiman. PDP University'da sun'iy intellekt yo'nalishi bo'yicha tahsil olaman va Android ilovalar yarataman. Bu sahifa &mdash; mening rasmiy shaxsiy sahifam: bu yerdan men bilan bog'lanishingiz mumkin.</p>
 
-    <p class="tech-label" data-i18n="techLabel"></p>
+    <p class="tech-label" data-i18n="techLabel">Ishlaydigan texnologiyalarim</p>
     <div class="tech-chips">
       <span>Java</span><span>Kotlin</span><span>MVVM</span><span>Jetpack Compose</span>
       <span>PostgreSQL</span><span>MySQL</span><span>Docker</span><span>AWS</span><span>REST API</span>
@@ -473,8 +518,8 @@
      <div class="project-header">
       <img class="project-icon" src="project-icon.webp" alt="4000 Words">
       <div class="project-body">
-        <h2 data-i18n="projectTitle"></h2>
-        <p data-i18n="projectDesc"></p>
+        <h2 data-i18n="projectTitle">4000 Words</h2>
+        <p data-i18n="projectDesc">Play Store'dagi Android ilovam. Batafsil ma'lumot va boshqa ishlarim hello-world.uz saytimda.</p>
       </div>
      </div>
         <div class="project-links">
@@ -489,6 +534,11 @@
     </div>
 
     <div class="divider"></div>
+
+    <p class="site-note">
+      <span data-i18n="siteNote">Loyihalarim va texnik yozuvlarim</span>
+      <a href="https://hello-world.uz/" rel="me">hello-world.uz</a>
+    </p>
 
     <div class="links">
       <a class="telegram-link" href="https://t.me/ibrohim_xalilov" target="_blank" rel="noopener">
@@ -520,30 +570,36 @@
       name: "Ibrohim Xalilov",
       location: "Toshkent, O'zbekiston",
       role: "Sun'iy intellekt yo'nalishi talabasi<br>Android dasturchi",
-      summary: "PDP University'da Sun'iy intellekt yo'nalishida tahsil olaman, Android dasturlash bo'yicha amaliy tajribam bor. Ingliz tili o'rganuvchilar uchun lug'at va testlar orqali so'z yodlashga yordam beruvchi Android ilova ustida ishlaganman.",
-      techLabel: "Texnologiyalar",
-      projectTitle: "4000 Words — Android ilova",
-      projectDesc: "Offline-first lug'at, xatolarga asoslangan moslashuvchan takrorlash va testlar.",
+      summary: "Assalomu alaykum! Men Ibrohim Xalilov \u2014 Toshkentda yashaydigan dasturchiman. PDP University'da sun'iy intellekt yo'nalishi bo'yicha tahsil olaman va Android ilovalar yarataman. Bu sahifa \u2014 mening rasmiy shaxsiy sahifam: bu yerdan men bilan bog'lanishingiz mumkin.",
+      techLabel: "Ishlaydigan texnologiyalarim",
+      projectsLabel: "Loyihalarim",
+      projectTitle: "4000 Words",
+      projectDesc: "Play Store'dagi Android ilovam. Batafsil ma'lumot va boshqa ishlarim hello-world.uz saytimda.",
+      siteNote: "Loyihalarim va texnik yozuvlarim:",
       playstore: "Play Store",
     },
     ru: {
       name: "Ибрахим Халилов",
       location: "Ташкент, Узбекистан",
       role: "Студент направления ИИ<br>Android-разработчик",
-      summary: "Учусь по направлению искусственного интеллекта в PDP University, имею практический опыт Android-разработки. Разрабатывал Android-приложение для изучающих английский язык, помогающее запоминать слова через словари и тесты.",
-      techLabel: "Технологии",
-      projectTitle: "4000 Words — Android-приложение",
-      projectDesc: "Офлайн-словарь, адаптивное повторение с учётом ошибок и тестирование.",
+      summary: "Здравствуйте! Меня зовут Ибрахим Халилов, я разработчик из Ташкента. Учусь по направлению искусственного интеллекта в PDP University и создаю Android-приложения. Это моя официальная личная страница \u2014 здесь вы можете связаться со мной.",
+      techLabel: "Технологии, с которыми работаю",
+      projectsLabel: "Мои проекты",
+      projectTitle: "4000 Words",
+      projectDesc: "Моё Android-приложение в Play Store. Подробности и другие работы \u2014 на моём сайте hello-world.uz.",
+      siteNote: "Мои проекты и технические заметки:",
       playstore: "Play Store",
     },
     en: {
       name: "Ibrohim Khalilov",
       location: "Tashkent, Uzbekistan",
       role: "Artificial Intelligence student<br>Android developer",
-      summary: "AI student at PDP University with hands-on experience in Android development. Built an Android app that helps English learners memorize vocabulary through built-in dictionaries and practice tests.",
-      techLabel: "Technologies",
-      projectTitle: "4000 Words — Android App",
-      projectDesc: "Offline-first vocabulary app with adaptive, mistake-based repetition and testing.",
+      summary: "Hi, I'm Ibrohim Khalilov \u2014 a developer based in Tashkent, Uzbekistan. I study artificial intelligence at PDP University and build Android apps. This is my official personal page \u2014 the place to get in touch with me.",
+      techLabel: "Technologies I work with",
+      projectsLabel: "My projects",
+      projectTitle: "4000 Words",
+      projectDesc: "My Android app on the Play Store. Full details and my other work live at hello-world.uz.",
+      siteNote: "My projects and technical notes:",
       playstore: "Play Store",
     }
   };
