@@ -6,6 +6,7 @@ Meni brendim ostidagi loyihalarim, barchasini bir joydan boshqarish uchun shunda
 
 - [ ] [Development](/docs/development.md)
 - [ ] [Portfolio](/docs/portfolio.md)
+- [ ] [Projects](/docs/projects.md)
 - [ ] CV
 - [ ] Resume
 - [ ] LinkedIn
