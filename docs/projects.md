@@ -1,5 +1,3 @@
-# Projects
-
 Shaxsiy va founderlik loyihalari. Har bir slug — [docs/projects/](/docs/projects/) ichidagi loyiha yozuvi.
 
 - [ ] [xalilov](/docs/projects/xalilov.md) — shaxsiy veb sayt
@@ -17,7 +15,7 @@ Shaxsiy va founderlik loyihalari. Har bir slug — [docs/projects/](/docs/projec
 		- [ ] [samarador-v3](/docs/projects/samarador-v3.md) — plan A: real to'lov tizimlari bilan hamkorlik yoki sotish; plan B: xalqaro bozorga moslashtirish
 	- [ ] [anketa](/docs/projects/anketa.md)
 	- [ ] [tutor-ai](/docs/projects/tutor-ai.md)
-- [ ] geyms — games so'zidan olingan vaqtincha nom, lovadan keyingi loyiham
+- [ ] egames — egames lovadan keyingi loyiham
 	- [x] [mazgi](/docs/projects/mazgi.md) — o'zim o'ylab topgan o'yin
 	- [x] [sudoku](/docs/projects/sudoku.md) — o'zimni talqinimda
 	- [ ] [kosmik-missiya](/docs/projects/kosmik-missiya.md) — alien invadersdan ilhomlanib, o'zimni talqinimda

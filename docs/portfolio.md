@@ -1,8 +1,4 @@
-# Portfolio
-
 Yo'nalishlar bo'yicha indeks. Har bir slug — [docs/projects/](/docs/projects/) ichidagi loyiha yozuvi.
-
-Belgilar: `?` — loyiha hali tanlanmagan · `-` — rejada yo'q
 
 - [ ] Mobile
 	- [x] Android
