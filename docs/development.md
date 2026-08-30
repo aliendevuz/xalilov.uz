@@ -1,0 +1,1773 @@
+- [ ] Development
+	- [ ] PM & Career
+		- [ ] Project Management
+			- [ ] Metodologiyalar
+				- [ ] Waterfall vs Agile
+				- [ ] Scrum (Sprint, Backlog, Standup, Retrospective, Sprint Planning)
+				- [ ] Kanban (WIP limits, Board boshqaruvi)
+				- [ ] SAFe (Scaled Agile, katta jamoalar uchun, umumiy tushuncha)
+			- [ ] Rollar va Mas'uliyatlar
+				- [ ] Product Owner vs Project Manager vs Scrum Master farqi
+				- [ ] Developer, Tech Lead, Team Lead rollari
+				- [ ] Stakeholder tushunchasi
+				- [ ] RACI matritsasi (Responsible, Accountable, Consulted, Informed)
+			- [ ] Rejalashtirish
+				- [ ] Task breakdown (vazifalarni bo'lish)
+				- [ ] Estimation texnikalari (Story Points, Planning Poker, T-shirt sizing)
+				- [ ] Deadline belgilash va risklarni hisobga olish
+				- [ ] Milestone va Roadmap tuzish
+			- [ ] Vositalar
+				- [ ] Jira / Trello / Linear
+				- [ ] Notion / Confluence (dokumentatsiya)
+				- [ ] Gantt chart tushunchasi
+		- [ ] Software Development Lifecycle (SDLC)
+			- [ ] SDLC bosqichlari (Talablarni yig'ish → Dizayn → Ishlab chiqish → Testing → Deployment → Maintenance)
+			- [ ] Requirements Engineering
+				- [ ] Functional vs Non-functional requirements
+				- [ ] User Stories yozish
+				- [ ] Acceptance Criteria
+			- [ ] Code Review jarayoni (jamoaviy standart)
+			- [ ] Release Management
+				- [ ] Versioning (Semantic Versioning)
+				- [ ] Release Notes yozish
+				- [ ] Hotfix va Rollback jarayoni
+		- [ ] Ishga kirish jarayoni
+			- [ ] CV va Resume tayyorlash
+			- [ ] LinkedIn profilini optimallashtirish
+			- [ ] Portfolio taqdimoti
+			- [ ] Texnik intervyu turlari
+				- [ ] Coding interview (LeetCode uslubi)
+				- [ ] System Design interview
+				- [ ] Behavioral interview (STAR metodi)
+				- [ ] Take-home task
+			- [ ] Ish beruvchi bilan muzokara
+				- [ ] Maosh muzokarasi (negotiation)
+				- [ ] Offer'ni baholash (faqat maosh emas, boshqa shartlar ham)
+		- [ ] Shartnomalar va Huquqiy asoslar
+			- [ ] Mehnat shartnomasi (Employment contract)
+				- [ ] Full-time vs Part-time vs Contract farqi
+				- [ ] Ishga qabul qilish shartlari (probation period)
+			- [ ] Frilanс shartnomalari
+				- [ ] Scope of Work (SOW)
+				- [ ] To'lov shartlari (milestone-based, hourly)
+				- [ ] NDA (Non-Disclosure Agreement)
+				- [ ] IP (Intellectual Property) huquqlari — kim egalik qiladi
+			- [ ] Non-compete va Non-solicitation kelishuvlari
+		- [ ] Stavkalar va Moliyaviy hisob-kitob
+			- [ ] Ish haqi turlari
+				- [ ] Fixed salary vs Hourly rate
+				- [ ] Frilanс stavkasini hisoblash (bozor narxi, tajriba darajasi asosida)
+			- [ ] Soliq va rasmiylashtirish (mamlakatga qarab farq qiladi)
+				- [ ] IP (Individual Entrepreneur) yoki boshqa yuridik shakl
+				- [ ] Frilanс daromadini deklaratsiya qilish
+			- [ ] Invoice (hisob-faktura) yozish
+			- [ ] Xalqaro to'lovlar (Payoneer, Wise, Upwork Escrow va h.k.)
+		- [ ] Karyera o'sishi
+			- [ ] Junior → Middle → Senior → Lead yo'li
+				- [ ] Har bir daraja uchun kutilayotgan ko'nikmalar
+			- [ ] Performance Review jarayoni
+			- [ ] Mentorlik (mentee va mentor sifatida)
+			- [ ] Networking (konferensiyalar, community'lar)
+			- [ ] Personal Branding (blog, open source, ijtimoiy tarmoqlar)
+	- [ ] Mobile
+		- [ ] Android
+			- [ ] Kotlin
+				- [ ] Sintaksis va asosiy tiplar
+					- [ ] val vs var
+					- [ ] Asosiy tiplar (Int, Double, String, Boolean va h.k.)
+					- [ ] Type inference
+				- [ ] Null Safety
+					- [ ] Nullable va Non-nullable tiplar (?)
+					- [ ] Safe call (?.) va Elvis operator (?:)
+					- [ ] !! operatori
+					- [ ] let, also bilan null tekshirish
+				- [ ] Boshqaruv oqimi
+					- [ ] if/else (expression sifatida)
+					- [ ] when (switch o'rniga)
+					- [ ] for, while
+					- [ ] Range'lar (1..10, downTo, step)
+				- [ ] Funksiyalar
+					- [ ] Function deklaratsiyasi
+					- [ ] Default va Named argumentlar
+					- [ ] Single-expression functions
+					- [ ] Varargs
+					- [ ] Lambda va Higher-order functions
+					- [ ] Extension functions
+					- [ ] Infix functions
+				- [ ] Ma'lumotlar tuzilmalari
+					- [ ] List, MutableList
+					- [ ] Set, MutableSet
+					- [ ] Map, MutableMap
+					- [ ] Array
+					- [ ] Collection operatorlari (map, filter, reduce, forEach, sortedBy va h.k.)
+				- [ ] OOP
+					- [ ] Class va Object
+					- [ ] Constructor (primary/secondary)
+					- [ ] Inheritance (open, override)
+					- [ ] Interface
+					- [ ] Abstract class
+					- [ ] Data class
+					- [ ] Sealed class
+					- [ ] Enum class
+					- [ ] Object declaration va Companion object
+					- [ ] Visibility modifiers (public, private, protected, internal)
+				- [ ] Generics
+					- [ ] Generic funksiyalar va classlar
+					- [ ] in/out (variance)
+				- [ ] Scope Functions
+					- [ ] let, run, with, apply, also — farqlari va qachon ishlatish
+				- [ ] Delegation
+					- [ ] by kalit so'zi
+					- [ ] lazy delegate
+					- [ ] Delegated properties
+				- [ ] Error Handling
+					- [ ] try/catch/finally
+					- [ ] Custom exceptions
+					- [ ] runCatching
+				- [ ] Coroutines (til darajasida)
+					- [ ] suspend funksiyalar
+					- [ ] launch, async/await
+					- [ ] CoroutineScope, Dispatchers
+					- [ ] Flow asoslari
+				- [ ] Qo'shimcha
+					- [ ] Destructuring declarations
+					- [ ] Operator overloading
+					- [ ] Inline functions
+					- [ ] Type aliases
+					- [ ] Kotlin va Java interoperability
+			- [ ] Android
+				- [ ] XML va View tizimi (amaliy kirish)
+					- [ ] Activity yaratish va AndroidManifest'da ro'yxatdan o'tkazish
+					- [ ] Layout turlari (LinearLayout, ConstraintLayout)
+					- [ ] View va ViewGroup
+					- [ ] findViewById vs ViewBinding
+					- [ ] Click listener va oddiy interaktivlik
+					- [ ] Intent bilan Activity'lar orasida o'tish (explicit/implicit)
+				- [ ] Android Fundamentals (endi amaliyot orqasidan tushuntiriladi)
+					- [ ] Activity Lifecycle (onCreate, onStart, onResume va h.k. — nega chaqirilishini XML orqali ko'rgandan keyin tushuniladi)
+					- [ ] Fragment va Lifecycle
+					- [ ] Context tushunchasi
+					- [ ] Application class
+				- [ ] Kotlin DSL ko'prigi (Compose'ga o'tish uchun)
+					- [ ] Trailing lambda sintaksisi
+					- [ ] Higher-order functions amaliyoti
+					- [ ] Lambda with receiver (Modifier zanjiri qanday ishlaydi)
+					- [ ] Extension functions'ning UI'da qo'llanilishi
+				- [ ] Jetpack Compose (chuqur, asosiy yo'nalish)
+					- [ ] Composable funksiyalar va @Composable annotatsiya
+					- [ ] State (remember, mutableStateOf, State hoisting)
+					- [ ] Layoutlar (Column, Row, Box, LazyColumn/LazyRow)
+					- [ ] Modifier tizimi
+					- [ ] Recomposition tushunchasi
+					- [ ] Navigation Compose
+					- [ ] Theming (MaterialTheme, Typography, Colors)
+					- [ ] Side-effects (LaunchedEffect, DisposableEffect, SideEffect)
+				- [ ] Architecture
+					- [ ] MVVM
+					- [ ] ViewModel
+					- [ ] Repository pattern
+				- [ ] Ma'lumotlar saqlash
+					- [ ] Room Database
+					- [ ] DataStore
+				- [ ] Networking
+					- [ ] Retrofit
+					- [ ] Kotlinx.serialization / Moshi
+				- [ ] Dependency Injection
+					- [ ] Hilt
+				- [ ] Firebase
+					- [ ] Authentication
+					- [ ] Firestore
+					- [ ] Cloud Messaging
+				- [ ] Testing
+					- [ ] JUnit
+					- [ ] Compose UI Testing
+				- [ ] Build va Deployment
+					- [ ] Gradle
+					- [ ] Play Store'ga chiqarish
+		- [ ] Flutter
+			- [ ] Dart
+				- [ ] Sintaksis va asosiy tiplar
+					- [ ] var, final, const farqi
+					- [ ] Asosiy tiplar (int, double, String, bool)
+					- [ ] Type inference va Type annotations
+					- [ ] Null Safety (?, !, late, ??, ??=)
+				- [ ] Ma'lumotlar tuzilmalari
+					- [ ] List
+					- [ ] Set
+					- [ ] Map
+					- [ ] Collection literals va spread operator (...)
+					- [ ] Collection if/for
+				- [ ] Boshqaruv oqimi
+					- [ ] if/else
+					- [ ] switch-case
+					- [ ] for, while, do-while
+				- [ ] Funksiyalar
+					- [ ] Function deklaratsiyasi
+					- [ ] Named va Optional parametrlar
+					- [ ] Default qiymatlar
+					- [ ] Arrow functions (=>)
+					- [ ] Anonymous functions va Closures
+					- [ ] Higher-order functions
+				- [ ] OOP
+					- [ ] Class va Object
+					- [ ] Constructor turlari (default, named, factory)
+					- [ ] Inheritance (extends, super)
+					- [ ] Abstract class
+					- [ ] Interface (implements)
+					- [ ] Mixin (with)
+					- [ ] Enum
+					- [ ] Getters va Setters
+					- [ ] Static members
+				- [ ] Generics
+					- [ ] Generic class va funksiyalar
+					- [ ] Bounded generics (extends)
+				- [ ] Error Handling
+					- [ ] try/catch/finally
+					- [ ] Custom exceptions
+					- [ ] throw
+				- [ ] Asinxron dasturlash
+					- [ ] Future
+					- [ ] async/await
+					- [ ] Stream
+					- [ ] StreamController, StreamBuilder asoslari
+					- [ ] Future.wait, Future.delayed
+				- [ ] Cascade va Operatorlar
+					- [ ] Cascade notation (..)
+					- [ ] Null-aware operatorlar
+					- [ ] Operator overloading
+				- [ ] Modullar
+					- [ ] import/export
+					- [ ] Library tashkil qilish
+					- [ ] pubspec.yaml va paket boshqaruvi (pub)
+				- [ ] Qo'shimcha
+					- [ ] Extension methods
+					- [ ] typedef
+					- [ ] Isolates (parallel dasturlash asoslari)
+					- [ ] Records va Pattern matching (Dart 3+)
+			- [ ] Flutter
+				- [ ] Widget asoslari (amaliy kirish)
+					- [ ] StatelessWidget
+					- [ ] StatefulWidget va setState
+					- [ ] Widget tree va Element tree tushunchasi
+					- [ ] Asosiy Layout widgetlar (Container, Row, Column, Stack)
+					- [ ] Scaffold, AppBar, Text, Image, Icon
+					- [ ] Padding, Margin, Alignment
+					- [ ] ListView, GridView
+					- [ ] Button turlari (ElevatedButton, TextButton va h.k.)
+				- [ ] Flutter Fundamentals (amaliyotdan keyin nazariy asos)
+					- [ ] Widget Lifecycle (initState, dispose, build)
+					- [ ] BuildContext tushunchasi
+					- [ ] Key'lar (ValueKey, UniqueKey) va qachon kerakligi
+					- [ ] Hot Reload vs Hot Restart
+				- [ ] Navigation va Routing
+					- [ ] Navigator 1.0 (push/pop)
+					- [ ] Named routes
+					- [ ] Navigator 2.0 / go_router
+					- [ ] Passing data between screens
+				- [ ] State Management
+					- [ ] setState cheklovlari (nega kattaroq ilovada yetarli emas)
+					- [ ] Provider
+					- [ ] Riverpod
+					- [ ] BLoC / Cubit
+					- [ ] GetX (ixtiyoriy, keng tarqalgan)
+				- [ ] Forms va Input
+					- [ ] TextField, TextEditingController
+					- [ ] Form va Validation
+					- [ ] Focus va Keyboard boshqaruvi
+				- [ ] Asinxron UI
+					- [ ] FutureBuilder
+					- [ ] StreamBuilder
+				- [ ] Networking
+					- [ ] http paketi
+					- [ ] Dio
+					- [ ] JSON serialization (json_serializable, freezed)
+				- [ ] Ma'lumotlar saqlash
+					- [ ] SharedPreferences
+					- [ ] Hive
+					- [ ] SQLite (sqflite)
+				- [ ] Dependency Injection
+					- [ ] get_it
+					- [ ] Riverpod orqali DI
+				- [ ] Architecture
+					- [ ] MVVM / Clean Architecture
+					- [ ] Repository pattern
+					- [ ] Feature-based folder structure
+				- [ ] Platform integratsiyasi
+					- [ ] Platform Channels (native kod bilan bog'lanish)
+					- [ ] Permissions (permission_handler)
+					- [ ] Camera, Location
+				- [ ] Firebase
+					- [ ] Authentication
+					- [ ] Firestore
+					- [ ] Cloud Messaging
+				- [ ] Animatsiyalar
+					- [ ] Implicit animatsiyalar (AnimatedContainer va h.k.)
+					- [ ] Explicit animatsiyalar (AnimationController, Tween)
+					- [ ] Hero animatsiya
+				- [ ] Testing
+					- [ ] Widget testing
+					- [ ] Unit testing
+					- [ ] Integration testing
+				- [ ] Build va Deployment
+					- [ ] Flavors (dev/prod muhitlar)
+					- [ ] Android/iOS build sozlamalari
+					- [ ] App Store va Play Store'ga chiqarish
+	- [ ] Frontend
+		- [ ] Vanilla
+			- [ ] HTML
+				- [ ] Asosiy tuzilma
+					- [ ] HTML5 hujjat strukturasi (`<!DOCTYPE>`, `<html>`, `<head>`, `<body>`)
+					- [ ] Semantic teglar (`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`)
+					- [ ] Meta teglar (charset, viewport, description)
+				- [ ] Matn va Kontent teglari
+					- [ ] Heading'lar (h1-h6)
+					- [ ] Paragraph, span, div
+					- [ ] Lists (ul, ol, li)
+					- [ ] Links (a, href, target)
+				- [ ] Media
+					- [ ] Image (img, alt, srcset)
+					- [ ] Audio va Video teglari
+					- [ ] SVG asoslari
+				- [ ] Forms
+					- [ ] Form elementi va action/method
+					- [ ] Input turlari (text, email, password, checkbox, radio, file va h.k.)
+					- [ ] Label, Select, Textarea
+					- [ ] Form validatsiyasi (required, pattern, min/max)
+					- [ ] Fieldset va Legend
+				- [ ] Jadvallar
+					- [ ] table, tr, td, th
+					- [ ] thead, tbody, tfoot
+					- [ ] colspan, rowspan
+				- [ ] Attributelar
+					- [ ] Global attributelar (id, class, style, data-*)
+					- [ ] Accessibility attributelar (aria-*, role)
+				- [ ] Accessibility (a11y) asoslari
+					- [ ] Semantic HTML'ning a11y uchun ahamiyati
+					- [ ] Alt text va Label'lar
+					- [ ] Keyboard navigation
+				- [ ] SEO asoslari (HTML darajasida)
+					- [ ] Title, meta description
+					- [ ] Heading iyerarxiyasi
+					- [ ] Semantic teglar SEO uchun
+				- [ ] Best Practices
+					- [ ] Valid HTML (W3C validator)
+					- [ ] Semantic vs Non-semantic teglar
+			- [ ] CSS
+				- [ ] Asoslar
+					- [ ] Selector turlari (element, class, id, attribute, pseudo-class, pseudo-element)
+					- [ ] Selector specificity va Cascade
+					- [ ] CSS qo'shish usullari (inline, internal, external)
+					- [ ] Comments
+				- [ ] Box Model
+					- [ ] Content, Padding, Border, Margin
+					- [ ] box-sizing (content-box vs border-box)
+					- [ ] Margin collapsing
+				- [ ] Rang va Fon
+					- [ ] Color formatlari (hex, rgb, hsl, rgba)
+					- [ ] background-color, background-image, background-position
+					- [ ] Gradientlar (linear-gradient, radial-gradient)
+				- [ ] Tipografiya
+					- [ ] font-family, font-size, font-weight
+					- [ ] line-height, letter-spacing
+					- [ ] @font-face (custom fontlar)
+					- [ ] Web-safe fonts va Google Fonts
+				- [ ] Layout — Display
+					- [ ] display: block, inline, inline-block, none
+					- [ ] Position (static, relative, absolute, fixed, sticky)
+					- [ ] z-index va Stacking context
+				- [ ] Layout — Flexbox
+					- [ ] flex-container va flex-item tushunchasi
+					- [ ] justify-content, align-items, align-content
+					- [ ] flex-direction, flex-wrap
+					- [ ] flex-grow, flex-shrink, flex-basis
+					- [ ] gap
+				- [ ] Layout — Grid
+					- [ ] grid-template-columns, grid-template-rows
+					- [ ] grid-gap / gap
+					- [ ] grid-area, grid-column, grid-row
+					- [ ] Named grid areas
+					- [ ] Auto-fit va Auto-fill
+				- [ ] Responsive Design
+					- [ ] Media queries (@media)
+					- [ ] Mobile-first vs Desktop-first yondashuv
+					- [ ] Relative birliklar (%, em, rem, vw, vh)
+					- [ ] Responsive images (srcset, picture)
+				- [ ] Animatsiya va Transition
+					- [ ] transition (property, duration, timing-function)
+					- [ ] @keyframes va animation
+					- [ ] transform (translate, rotate, scale, skew)
+				- [ ] Zamonaviy CSS xususiyatlari
+					- [ ] CSS Variables (custom properties, --var)
+					- [ ] calc() funksiyasi
+					- [ ] clamp(), min(), max()
+					- [ ] Container Queries
+				- [ ] CSS Metodologiyalari
+					- [ ] BEM (Block Element Modifier)
+					- [ ] Utility-first yondashuv (Tailwind falsafasi)
+				- [ ] Preprocessorlar (tushuncha darajasida)
+					- [ ] SASS/SCSS asoslari (variables, nesting, mixins)
+				- [ ] CSS Frameworklar (tanishuv)
+					- [ ] Bootstrap
+					- [ ] Tailwind CSS
+				- [ ] Best Practices
+					- [ ] CSS Reset / Normalize
+					- [ ] Mobile-first dizayn
+					- [ ] Performance (critical CSS, unused CSS)
+			- [ ] JavaScript
+				- [ ] (Til asoslari — Backend/JavaScript & TypeScript bo'limiga bog'liq, u yerda batafsil yozilgan)
+				- [ ] DOM (Document Object Model)
+					- [ ] DOM tree tushunchasi
+					- [ ] Elementlarni tanlash (getElementById, querySelector, querySelectorAll)
+					- [ ] Elementlarni yaratish va o'chirish (createElement, appendChild, removeChild)
+					- [ ] Element atributlari va style'ni o'zgartirish (classList, setAttribute)
+					- [ ] innerHTML vs textContent vs innerText
+				- [ ] Event Handling
+					- [ ] addEventListener va Event obyekti
+					- [ ] Event turlari (click, submit, keydown, input va h.k.)
+					- [ ] Event Bubbling va Capturing
+					- [ ] Event Delegation
+					- [ ] preventDefault va stopPropagation
+				- [ ] Forms bilan ishlash
+					- [ ] Form ma'lumotlarini olish (FormData)
+					- [ ] Validatsiya (JS orqali)
+					- [ ] Input event'lar bilan real-time ishlash
+				- [ ] Browser Storage
+					- [ ] LocalStorage
+					- [ ] SessionStorage
+					- [ ] Cookies (JS orqali o'qish/yozish)
+				- [ ] Fetch API va AJAX
+					- [ ] fetch() bilan so'rov yuborish
+					- [ ] Response'ni qayta ishlash (json(), text())
+					- [ ] Error handling (network xatolari)
+					- [ ] XMLHttpRequest (eski usul, tushuncha darajasida)
+				- [ ] Browser Object Model (BOM)
+					- [ ] window obyekti
+					- [ ] location, history, navigator
+					- [ ] setTimeout, setInterval
+				- [ ] Animatsiya (JS orqali)
+					- [ ] requestAnimationFrame
+					- [ ] CSS class'larni JS bilan almashtirish orqali animatsiya
+				- [ ] Performance va Best Practices
+					- [ ] Debounce va Throttle
+					- [ ] DOM manipulatsiyasini optimallashtirish (reflow/repaint'dan qochish)
+					- [ ] Event listener'larni to'g'ri tozalash (memory leak'dan saqlanish)
+				- [ ] Web APIs (tanishuv)
+					- [ ] Geolocation API
+					- [ ] Intersection Observer
+					- [ ] Web Storage vs IndexedDB
+		- [ ] Vue
+			- [ ] Asoslar
+				- [ ] Vue instance va Application yaratish (createApp)
+				- [ ] Template sintaksisi
+				- [ ] Interpolation ({{ }})
+				- [ ] Directives (v-bind, v-if, v-else, v-show, v-for, v-on)
+				- [ ] Attribute Binding (v-bind qisqartmasi :)
+				- [ ] Event Handling (v-on qisqartmasi @)
+			- [ ] Reaktivlik (Reactivity)
+				- [ ] Options API vs Composition API farqi
+				- [ ] ref() va reactive()
+				- [ ] computed()
+				- [ ] watch() va watchEffect()
+				- [ ] Reactivity'ning ichki ishlash mantig'i (Proxy asosida)
+			- [ ] Komponentlar
+				- [ ] Component yaratish va ro'yxatdan o'tkazish
+				- [ ] Props (parent → child ma'lumot uzatish)
+				- [ ] Emits (child → parent event yuborish)
+				- [ ] Slots (default, named, scoped)
+				- [ ] Single File Components (.vue fayllar — template, script, style)
+			- [ ] Composition API (chuqur)
+				- [ ] setup() funksiyasi
+				- [ ] `<script setup>` sintaksisi
+				- [ ] Composables yaratish (custom hook'larga o'xshash, qayta ishlatiladigan logika)
+				- [ ] Lifecycle hooks (onMounted, onUpdated, onUnmounted)
+			- [ ] Form bilan ishlash
+				- [ ] v-model (two-way binding)
+				- [ ] v-model modifikatorlari (.lazy, .number, .trim)
+				- [ ] Form validatsiya
+			- [ ] Shartli va Ro'yxat renderlash
+				- [ ] v-if vs v-show farqi
+				- [ ] v-for bilan key ishlatish (nega muhim)
+				- [ ] Nested v-for
+			- [ ] State Management
+				- [ ] Local state (ref/reactive) yetarli bo'lmagan holatlar
+				- [ ] Pinia (zamonaviy standart)
+					- [ ] Store yaratish (defineStore)
+					- [ ] State, Getters, Actions
+				- [ ] Vuex (eski, tushuncha darajasida)
+			- [ ] Routing
+				- [ ] Vue Router
+					- [ ] Route yaratish va ro'yxatdan o'tkazish
+					- [ ] Dynamic routes (params)
+					- [ ] Nested routes
+					- [ ] Navigation Guards (beforeEach va h.k.)
+					- [ ] Programmatic navigation (router.push)
+			- [ ] Asinxron ma'lumot va API
+				- [ ] Fetch/Axios bilan API chaqirish
+				- [ ] Lifecycle hook'larda ma'lumot yuklash (onMounted)
+				- [ ] Loading va Error state boshqaruvi
+			- [ ] Directives (chuqurroq)
+				- [ ] Custom Directives yaratish
+				- [ ] v-bind:class va v-bind:style (object/array sintaksis)
+			- [ ] Transition va Animation
+				- [ ] `<Transition>` komponenti
+				- [ ] `<TransitionGroup>`
+				- [ ] CSS bilan animatsiya integratsiyasi
+			- [ ] TypeScript bilan Vue
+				- [ ] defineComponent
+				- [ ] Props tiplash
+				- [ ] Composition API + TypeScript
+			- [ ] Testing
+				- [ ] Vitest (unit testing)
+				- [ ] Vue Test Utils
+			- [ ] Build va Tooling
+				- [ ] Vite (zamonaviy build vositasi)
+				- [ ] Vue DevTools
+			- [ ] Best Practices
+				- [ ] Component nomlash konvensiyalari
+				- [ ] Props validation
+				- [ ] Composables orqali kod qayta ishlatish
+		- [ ] React
+			- [ ] Asoslar
+				- [ ] JSX sintaksisi
+				- [ ] Komponent yaratish (Function Component)
+				- [ ] Props (parent → child ma'lumot uzatish)
+				- [ ] Component composition (children props)
+				- [ ] Conditional rendering
+				- [ ] List rendering va key prop
+				- [ ] Event handling (onClick, onChange va h.k.)
+			- [ ] State va Hooks
+				- [ ] useState
+				- [ ] useEffect (dependency array, cleanup function)
+				- [ ] useRef
+				- [ ] useContext
+				- [ ] useMemo va useCallback (performance optimizatsiya)
+				- [ ] useReducer
+				- [ ] Custom Hooks yaratish
+			- [ ] Component Lifecycle (funktsional komponent nuqtai nazaridan)
+				- [ ] Mount, Update, Unmount bosqichlari useEffect orqali
+				- [ ] Re-render sabablari va optimizatsiya
+			- [ ] Forms
+				- [ ] Controlled vs Uncontrolled components
+				- [ ] Form validatsiya (manual yoki kutubxona bilan)
+				- [ ] React Hook Form
+			- [ ] State Management
+				- [ ] Local state yetarli bo'lmagan holatlar (prop drilling muammosi)
+				- [ ] Context API (chuqur)
+				- [ ] Zustand (zamonaviy, yengil)
+				- [ ] Redux Toolkit
+					- [ ] Store, Slice, Reducer
+					- [ ] Actions va Dispatch
+					- [ ] useSelector, useDispatch
+					- [ ] Async logic (createAsyncThunk)
+			- [ ] Routing
+				- [ ] React Router
+					- [ ] Route yaratish (Routes, Route)
+					- [ ] Dynamic routes (useParams)
+					- [ ] Nested routes
+					- [ ] Navigation (useNavigate, Link)
+					- [ ] Protected routes
+			- [ ] Asinxron ma'lumot va API
+				- [ ] Fetch/Axios bilan API chaqirish
+				- [ ] useEffect orqali data fetching
+				- [ ] React Query / TanStack Query (caching, refetching)
+				- [ ] Loading va Error state boshqaruvi
+			- [ ] Performance Optimizatsiya
+				- [ ] React.memo
+				- [ ] useMemo/useCallback qachon kerak
+				- [ ] Code splitting va Lazy loading (React.lazy, Suspense)
+				- [ ] Virtualization (katta ro'yxatlar uchun)
+			- [ ] Styling yondashuvlari
+				- [ ] CSS Modules
+				- [ ] Styled-components / Emotion
+				- [ ] Tailwind CSS bilan React
+			- [ ] TypeScript bilan React
+				- [ ] Component va Props tiplash
+				- [ ] Hook'larni tiplash (`useState<T>`)
+				- [ ] Event tiplari
+			- [ ] Testing
+				- [ ] React Testing Library
+				- [ ] Jest / Vitest
+				- [ ] Component testing best practices
+			- [ ] Build va Tooling
+				- [ ] Vite (zamonaviy build vositasi)
+				- [ ] React DevTools
+			- [ ] Advanced tushunchalar
+				- [ ] Portals
+				- [ ] Error Boundaries
+				- [ ] Higher-Order Components (HOC, eski pattern)
+				- [ ] Render Props (eski pattern)
+				- [ ] Fiber arxitekturasi (umumiy tushuncha)
+			- [ ] Best Practices
+				- [ ] Component nomlash va fayl tuzilishi
+				- [ ] Prop-types / TypeScript bilan validatsiya
+				- [ ] Composition over inheritance
+		- [ ] Next
+			- [ ] (React asoslari — yuqoridagi React bo'limiga bog'liq, u yerda batafsil yozilgan)
+			- [ ] Asoslar
+				- [ ] Next.js loyihasini yaratish (create-next-app)
+				- [ ] File-based Routing tushunchasi
+				- [ ] App Router vs Pages Router (zamonaviy vs eski)
+				- [ ] Loyiha strukturasi (app/, public/, components/)
+			- [ ] Routing (App Router)
+				- [ ] page.tsx, layout.tsx, loading.tsx, error.tsx konvensiyalari
+				- [ ] Dynamic routes ([id], [...slug])
+				- [ ] Route Groups
+				- [ ] Parallel va Intercepting routes (ilg'or)
+				- [ ] Navigation (Link, useRouter, redirect)
+			- [ ] Rendering strategiyalari
+				- [ ] Server Components vs Client Components ("use client")
+				- [ ] SSR (Server-Side Rendering)
+				- [ ] SSG (Static Site Generation)
+				- [ ] ISR (Incremental Static Regeneration)
+				- [ ] CSR (Client-Side Rendering) — qachon kerak
+				- [ ] Qaysi strategiyani qachon tanlash
+			- [ ] Data Fetching
+				- [ ] Server Component'da to'g'ridan-to'g'ri fetch
+				- [ ] Caching va Revalidation (fetch options)
+				- [ ] Server Actions (formalarni server'da qayta ishlash)
+				- [ ] Streaming va Suspense bilan progressive loading
+			- [ ] API Routes
+				- [ ] Route Handlers (app/api/.../route.ts)
+				- [ ] GET, POST va boshqa metodlar
+				- [ ] Middleware (middleware.ts)
+			- [ ] Metadata va SEO
+				- [ ] Metadata API (title, description)
+				- [ ] Dynamic metadata (generateMetadata)
+				- [ ] Open Graph va Twitter Cards
+				- [ ] sitemap.xml va robots.txt generatsiyasi
+			- [ ] Optimizatsiya
+				- [ ] next/image (Image Optimization)
+				- [ ] next/font (Font Optimization)
+				- [ ] Lazy loading va Code splitting (avtomatik)
+				- [ ] Bundle analyzer
+			- [ ] Autentifikatsiya
+				- [ ] NextAuth.js / Auth.js
+				- [ ] Session boshqaruvi (Server Component kontekstida)
+				- [ ] Middleware orqali protected routes
+			- [ ] Ma'lumotlar bazasi integratsiyasi
+				- [ ] Prisma / Drizzle ORM bilan ishlash
+				- [ ] Server Actions orqali DB operatsiyalari
+			- [ ] Environment va Konfiguratsiya
+				- [ ] .env fayllar (NEXT_PUBLIC_ prefiksi)
+				- [ ] next.config.js sozlamalari
+			- [ ] Testing
+				- [ ] Jest / Vitest bilan unit testing
+				- [ ] Playwright bilan E2E testing
+			- [ ] Deployment
+				- [ ] Vercel'ga deploy qilish
+				- [ ] Self-hosting (Docker bilan)
+				- [ ] Build va Production optimizatsiyasi
+			- [ ] Qo'shimcha
+				- [ ] Internationalization (i18n)
+				- [ ] Edge Runtime tushunchasi
+				- [ ] Turbopack (yangi bundler)
+		- [ ] Nuxt
+			- [ ] (Vue asoslari — yuqoridagi Vue bo'limiga bog'liq, u yerda batafsil yozilgan)
+			- [ ] Asoslar
+				- [ ] Nuxt loyihasini yaratish (nuxi/create-nuxt)
+				- [ ] File-based Routing tushunchasi (pages/ papkasi)
+				- [ ] Loyiha strukturasi (pages/, components/, layouts/, composables/, server/)
+				- [ ] nuxt.config.ts sozlamalari
+			- [ ] Routing
+				- [ ] Dynamic routes ([id].vue, [...slug].vue)
+				- [ ] Nested routes va layouts
+				- [ ] Navigation (NuxtLink, useRouter, navigateTo)
+				- [ ] Middleware (route middleware)
+			- [ ] Rendering strategiyalari
+				- [ ] SSR (Server-Side Rendering) — Nuxt default rejimi
+				- [ ] SSG (Static Site Generation) — nuxt generate
+				- [ ] SPA rejimi
+				- [ ] Hybrid Rendering (sahifa darajasida route rules)
+				- [ ] Qaysi strategiyani qachon tanlash
+			- [ ] Data Fetching
+				- [ ] useFetch va useAsyncData
+				- [ ] Caching va Refresh (refresh(), key)
+				- [ ] Server-side va Client-side fetching farqi
+				- [ ] Error handling (data fetching'da)
+			- [ ] Nuxt-specific Composables
+				- [ ] useState (SSR-friendly global state)
+				- [ ] useRoute, useRouter
+				- [ ] useRuntimeConfig (environment o'zgaruvchilar)
+				- [ ] useHead / useSeoMeta (metadata boshqaruvi)
+			- [ ] Server API (Nitro engine)
+				- [ ] server/api/ papkasida endpoint yaratish
+				- [ ] Server routes va middleware
+				- [ ] Nitro'ning ichki ishlash mantig'i (universal server)
+			- [ ] Auto-imports
+				- [ ] Komponentlar va Composables'ning avtomatik import qilinishi
+				- [ ] Bu xususiyatning Nuxt'ni Vue'dan farqlaydigan asosiy jihati ekanligi
+			- [ ] SEO va Metadata
+				- [ ] useSeoMeta / useHead
+				- [ ] Open Graph va Twitter Cards
+				- [ ] sitemap va robots.txt (modul orqali)
+			- [ ] State Management
+				- [ ] useState (kichik loyihalar uchun)
+				- [ ] Pinia integratsiyasi (kattaroq loyihalar uchun)
+			- [ ] Optimizatsiya
+				- [ ] Nuxt Image (@nuxt/image)
+				- [ ] Lazy loading (komponent va route darajasida)
+				- [ ] Bundle optimizatsiyasi
+			- [ ] Autentifikatsiya
+				- [ ] @sidebase/nuxt-auth yoki shunga o'xshash modullar
+				- [ ] Session/Token boshqaruvi SSR kontekstida
+			- [ ] Ma'lumotlar bazasi integratsiyasi
+				- [ ] Server API orqali Prisma/Drizzle bilan ishlash
+			- [ ] Modullar ekotizimi
+				- [ ] Nuxt Modules tushunchasi (@nuxt/*, community modullar)
+				- [ ] Eng ko'p ishlatiladigan modullar (Tailwind, Image, Content)
+			- [ ] Testing
+				- [ ] Vitest bilan unit testing
+				- [ ] Nuxt Test Utils
+				- [ ] Playwright bilan E2E testing
+			- [ ] Deployment
+				- [ ] Vercel/Netlify'ga deploy qilish
+				- [ ] Node server sifatida self-hosting
+				- [ ] Static hosting (SSG rejimida)
+			- [ ] Qo'shimcha
+				- [ ] Internationalization (i18n modul)
+				- [ ] Edge Rendering
+	- [ ] Backend
+		- [ ] python
+			- [ ] python Asoslari
+				- [ ] Sintaksis va asosiy tiplar
+					- [ ] O'zgaruvchilar va tip tizimi (int, float, str, bool)
+					- [ ] Operatorlar (arifmetik, mantiqiy, solishtirish)
+					- [ ] Type hints (typing moduli)
+				- [ ] Ma'lumotlar tuzilmalari
+					- [ ] List, Tuple, Set, Dict
+					- [ ] List/Dict/Set comprehensions
+					- [ ] Slicing
+				- [ ] Boshqaruv oqimi
+					- [ ] if/elif/else
+					- [ ] for, while, break, continue
+					- [ ] match-case (Python 3.10+)
+				- [ ] Funksiyalar
+					- [ ] Argumentlar (*args, **kwargs)
+					- [ ] Default va keyword argumentlar
+					- [ ] Lambda funksiyalar
+					- [ ] Closures
+					- [ ] Decorators
+				- [ ] OOP (Object-Oriented Programming)
+					- [ ] Class va Object
+					- [ ] Inheritance (meros olish)
+					- [ ] Encapsulation, Polymorphism
+					- [ ] Magic/Dunder metodlar (__init__, __str__, __repr__ va h.k.)
+					- [ ] Classmethod, Staticmethod, Property
+					- [ ] Abstract classes (ABC)
+				- [ ] Error Handling
+					- [ ] try/except/finally
+					- [ ] Custom exceptions
+					- [ ] Context managers (with statement)
+				- [ ] Modullar va Paketlar
+					- [ ] import tizimi
+					- [ ] __init__.py va package strukturasi
+					- [ ] Virtual environment (venv, poetry, uv)
+				- [ ] Iteratorlar va Generatorlar
+					- [ ] Iterator protokoli (__iter__, __next__)
+					- [ ] yield va generator funksiyalar
+					- [ ] Generator expressions
+				- [ ] Funktsional dasturlash elementlari
+					- [ ] map, filter, reduce
+					- [ ] itertools, functools
+				- [ ] Async dasturlash
+					- [ ] async/await
+					- [ ] asyncio asoslari
+					- [ ] Coroutines vs Threads vs Processes
+				- [ ] Standart kutubxona (bilish kifoya bo'lganlari)
+					- [ ] os, sys, pathlib
+					- [ ] datetime
+					- [ ] json
+					- [ ] collections (defaultdict, Counter, namedtuple)
+					- [ ] re (regex)
+				- [ ] Testing
+					- [ ] unittest
+					- [ ] pytest asoslari
+				- [ ] Best Practices
+					- [ ] PEP 8 (kod uslubi)
+					- [ ] Type checking (mypy)
+					- [ ] Virtual environment va dependency management
+			- [ ] FastAPI
+				- [ ] Asoslar
+					- [ ] Path va Query parametrlar
+					- [ ] Request Body (Pydantic modellar)
+					- [ ] Response Model va status kodlar
+					- [ ] Path Operations (GET, POST, PUT, DELETE, PATCH)
+					- [ ] Avtomatik dokumentatsiya (Swagger/OpenAPI, ReDoc)
+				- [ ] Pydantic
+					- [ ] Validatsiya (Field, validator)
+					- [ ] Nested modellar
+					- [ ] Pydantic v2 o'zgarishlari
+				- [ ] Dependency Injection
+					- [ ] Depends()
+					- [ ] Sub-dependencies
+					- [ ] Class-based dependencies
+				- [ ] Ma'lumotlar bazasi
+					- [ ] SQLAlchemy (yoki SQLModel) integratsiyasi
+					- [ ] Alembic (migratsiyalar)
+					- [ ] Async DB drayverlar (asyncpg, aiomysql)
+				- [ ] Autentifikatsiya va Avtorizatsiya
+					- [ ] OAuth2 + JWT
+					- [ ] Password hashing (bcrypt/passlib)
+					- [ ] Role-based access control
+				- [ ] Async/Await
+					- [ ] async def vs def farqi
+					- [ ] Background Tasks
+					- [ ] async DB va HTTP so'rovlar
+				- [ ] Middleware
+					- [ ] CORS
+					- [ ] Custom middleware
+					- [ ] Exception handlers
+				- [ ] Testing
+					- [ ] TestClient (pytest bilan)
+					- [ ] Mocking dependencies
+				- [ ] WebSockets
+				- [ ] File Upload/Download
+				- [ ] Background Jobs
+					- [ ] Celery yoki ARQ integratsiyasi
+				- [ ] Deployment
+					- [ ] Uvicorn / Gunicorn
+					- [ ] Docker bilan konteynerlash
+					- [ ] Environment variables (Pydantic Settings)
+				- [ ] Qo'shimcha
+					- [ ] Rate Limiting
+					- [ ] Caching (Redis)
+					- [ ] Logging va Monitoring
+					- [ ] Versioning (API versiyalash)
+			- [ ] Django
+				- [ ] Asoslar
+					- [ ] Loyiha va App strukturasi
+					- [ ] settings.py sozlamalari
+					- [ ] URL routing (urls.py)
+					- [ ] MVT arxitekturasi (Model-View-Template)
+					- [ ] Django management commands (manage.py)
+				- [ ] Models
+					- [ ] ORM asoslari
+					- [ ] Model maydonlari va turlari
+					- [ ] Relationships (ForeignKey, ManyToMany, OneToOne)
+					- [ ] Migratsiyalar (makemigrations, migrate)
+					- [ ] QuerySet va Manager
+					- [ ] Model Meta options
+				- [ ] Views
+					- [ ] Function-Based Views (FBV)
+					- [ ] Class-Based Views (CBV)
+					- [ ] Generic Views (ListView, DetailView, CreateView va h.k.)
+					- [ ] Mixins
+				- [ ] Templates
+					- [ ] Django Template Language (DTL)
+					- [ ] Template inheritance
+					- [ ] Static va Media fayllar
+				- [ ] Forms
+					- [ ] Django Forms
+					- [ ] ModelForm
+					- [ ] Validatsiya
+				- [ ] Django REST Framework (DRF)
+					- [ ] Serializers
+					- [ ] ViewSets va Routers
+					- [ ] Generic Views (DRF)
+					- [ ] Permissions va Throttling
+					- [ ] Authentication (Token, JWT, Session)
+				- [ ] Autentifikatsiya va Avtorizatsiya
+					- [ ] Django auth tizimi (User model)
+					- [ ] Custom User model
+					- [ ] Permissions va Groups
+					- [ ] Middleware orqali auth
+				- [ ] Admin Panel
+					- [ ] ModelAdmin sozlamalari
+					- [ ] Custom admin actions
+				- [ ] Signals
+				- [ ] Middleware
+					- [ ] Built-in middleware
+					- [ ] Custom middleware yozish
+				- [ ] Async Django
+					- [ ] Async views
+					- [ ] ASGI vs WSGI
+				- [ ] Testing
+					- [ ] Django TestCase
+					- [ ] pytest-django
+				- [ ] Caching
+					- [ ] Cache framework (Redis, Memcached)
+				- [ ] Background Jobs
+					- [ ] Celery integratsiyasi
+				- [ ] Deployment
+					- [ ] Gunicorn/uWSGI + Nginx
+					- [ ] Docker bilan konteynerlash
+					- [ ] Environment variables (django-environ)
+					- [ ] Static/Media fayllarni production'da boshqarish (WhiteNoise, S3)
+				- [ ] Qo'shimcha
+					- [ ] Django Signals vs Celery tasks (qachon ishlatish)
+					- [ ] Security best practices (CSRF, XSS, SQL Injection himoyasi)
+					- [ ] Logging va Monitoring
+		- [ ] JavaScript & TypeScript
+			- [ ] JavaScript Asoslari
+				- [ ] Sintaksis va asosiy tiplar
+					- [ ] var, let, const farqi
+					- [ ] Primitive tiplar (string, number, boolean, null, undefined, symbol, bigint)
+					- [ ] Type coercion va == vs ===
+				- [ ] Ma'lumotlar tuzilmalari
+					- [ ] Array va Array metodlari (map, filter, reduce, forEach va h.k.)
+					- [ ] Object va Object metodlari (keys, values, entries)
+					- [ ] Set va Map
+					- [ ] Destructuring (array/object)
+					- [ ] Spread va Rest operatorlari
+				- [ ] Boshqaruv oqimi
+					- [ ] if/else, switch
+					- [ ] for, for...of, for...in, while
+				- [ ] Funksiyalar
+					- [ ] Function declaration vs Function expression
+					- [ ] Arrow functions
+					- [ ] Default parametrlar
+					- [ ] Higher-order functions
+					- [ ] Callback funksiyalar
+				- [ ] Scope va Closures
+					- [ ] Global/Function/Block scope
+					- [ ] Closures
+					- [ ] Hoisting
+				- [ ] this kalit so'zi
+					- [ ] this kontekstga bog'liqligi
+					- [ ] call, apply, bind
+					- [ ] Arrow function'da this
+				- [ ] Prototype va OOP
+					- [ ] Prototype chain
+					- [ ] Class sintaksisi (ES6)
+					- [ ] Inheritance (extends, super)
+					- [ ] Getters/Setters
+				- [ ] Asinxron dasturlash
+					- [ ] Event Loop, Call Stack, Task Queue
+					- [ ] Callbacks
+					- [ ] Promises (then, catch, finally)
+					- [ ] async/await
+					- [ ] Promise.all, Promise.race, Promise.allSettled
+				- [ ] Error Handling
+					- [ ] try/catch/finally
+					- [ ] Custom Error classlar
+				- [ ] Modullar
+					- [ ] ES Modules (import/export)
+					- [ ] CommonJS (require/module.exports)
+				- [ ] DOM va Browser API (agar frontend uchun ham kerak bo'lsa)
+					- [ ] DOM manipulatsiya
+					- [ ] Event handling
+					- [ ] Fetch API
+					- [ ] LocalStorage/SessionStorage
+				- [ ] Iteratorlar va Generatorlar
+					- [ ] Iterator protokoli
+					- [ ] Generator funksiyalar (function*, yield)
+				- [ ] Best Practices
+					- [ ] Strict mode
+					- [ ] ESLint/Prettier
+					- [ ] Immutability tushunchasi
+				- [ ] Testing
+					- [ ] Jest yoki Vitest asoslari
+			- [ ] TypeScript qo'shish
+				- [ ] Sozlash
+					- [ ] tsconfig.json
+					- [ ] Kompilyatsiya (tsc)
+					- [ ] ts-node / tsx bilan ishga tushirish
+				- [ ] Statik tiplar
+					- [ ] Asosiy tiplar (string, number, boolean, any, unknown, void, never)
+					- [ ] Array va Tuple tiplari
+					- [ ] Type Aliases (type)
+					- [ ] Interface
+					- [ ] Interface vs Type farqi
+				- [ ] Funksiyalarda tiplash
+					- [ ] Parametr va qaytish tipi
+					- [ ] Optional va default parametrlar
+					- [ ] Function overloads
+				- [ ] Union va Intersection tiplar
+					- [ ] Union (|)
+					- [ ] Intersection (&)
+					- [ ] Literal types
+				- [ ] Type Narrowing
+					- [ ] typeof, instanceof tekshiruvlari
+					- [ ] Discriminated Unions
+					- [ ] Type Guards (custom)
+				- [ ] Generics
+					- [ ] Generic funksiyalar
+					- [ ] Generic interfacelar va classlar
+					- [ ] Constraints (extends)
+					- [ ] Default generic tiplar
+				- [ ] Enum
+					- [ ] Numeric va String enum
+					- [ ] const enum
+				- [ ] Class'larda TypeScript
+					- [ ] Access modifiers (public, private, protected)
+					- [ ] readonly
+					- [ ] Abstract classes
+					- [ ] Implements (interface bilan)
+				- [ ] Utility Types
+					- [ ] Partial, Required, Readonly
+					- [ ] Pick, Omit
+					- [ ] Record
+					- [ ] ReturnType, Parameters
+				- [ ] Advanced Types
+					- [ ] Mapped Types
+					- [ ] Conditional Types
+					- [ ] Template Literal Types
+					- [ ] infer kalit so'zi
+				- [ ] Modullar va Deklaratsiyalar
+					- [ ] .d.ts fayllar
+					- [ ] declare kalit so'zi
+					- [ ] Third-party kutubxonalar uchun tiplar (@types)
+				- [ ] Konfiguratsiya va Best Practices
+					- [ ] strict mode (strictNullChecks va h.k.)
+					- [ ] ESLint + TypeScript
+					- [ ] Path aliases (baseUrl, paths)
+			- [ ] Express.js
+				- [ ] Asoslar
+					- [ ] Server yaratish (app.listen)
+					- [ ] Routing (app.get, app.post, app.put, app.delete)
+					- [ ] Route parametrlari va Query stringlar
+					- [ ] Request/Response obyektlari
+				- [ ] Middleware
+					- [ ] Built-in middleware (express.json, express.static)
+					- [ ] Custom middleware yozish
+					- [ ] Error-handling middleware
+					- [ ] Third-party middleware (cors, morgan, helmet)
+				- [ ] Routing tashkil qilish
+					- [ ] express.Router()
+					- [ ] Modular route fayllar
+					- [ ] Route grouping
+				- [ ] Ma'lumotlar bazasi bilan integratsiya
+					- [ ] MongoDB (Mongoose)
+					- [ ] PostgreSQL/MySQL (Prisma yoki Sequelize)
+				- [ ] Autentifikatsiya va Avtorizatsiya
+					- [ ] Session-based auth
+					- [ ] JWT bilan autentifikatsiya
+					- [ ] Passport.js
+					- [ ] Role-based access control
+				- [ ] Validatsiya
+					- [ ] express-validator yoki Zod/Joi
+				- [ ] Error Handling
+					- [ ] Global error handler
+					- [ ] Custom Error classlar
+					- [ ] Async error'larni ushlash (try/catch, wrapper)
+				- [ ] File Upload
+					- [ ] multer
+				- [ ] Testing
+					- [ ] Jest/Vitest + Supertest
+				- [ ] Security
+					- [ ] Helmet
+					- [ ] Rate limiting (express-rate-limit)
+					- [ ] CORS sozlash
+					- [ ] Input sanitization
+				- [ ] Deployment
+					- [ ] PM2 yoki Docker bilan konteynerlash
+					- [ ] Environment variables (dotenv)
+					- [ ] Nginx reverse proxy
+				- [ ] TypeScript bilan qo'shimcha (agar TS ishlatilsa)
+					- [ ] @types/express o'rnatish
+					- [ ] Request/Response'larga custom tip qo'shish
+					- [ ] tsconfig sozlash (Express loyihasi uchun)
+					- [ ] Middleware'larni tiplash
+			- [ ] Nest.js
+				- [ ] (Express asoslari — yuqoridagi Express bo'limiga bog'liq, HTTP/Routing tushunchalari umumiy)
+				- [ ] Asoslar
+					- [ ] Nest CLI bilan loyiha yaratish
+					- [ ] Loyiha strukturasi (modules, controllers, services)
+					- [ ] main.ts va bootstrap jarayoni
+					- [ ] Decorator'lar tushunchasi (TypeScript metadata asosida)
+				- [ ] Modullar (Modules)
+					- [ ] @Module() decorator
+					- [ ] Feature modules
+					- [ ] Shared modules
+					- [ ] Global modules
+				- [ ] Controllers
+					- [ ] @Controller() decorator
+					- [ ] Route decorator'lari (@Get, @Post, @Put, @Delete)
+					- [ ] @Param, @Query, @Body
+					- [ ] Request/Response obyektlariga to'g'ridan-to'g'ri kirish (agar kerak bo'lsa)
+				- [ ] Providers va Dependency Injection
+					- [ ] @Injectable() decorator
+					- [ ] Constructor-based Dependency Injection
+					- [ ] Provider scope (Singleton, Request, Transient)
+					- [ ] Custom providers
+				- [ ] Services
+					- [ ] Business logic'ni Service qatlamiga ajratish
+					- [ ] Repository pattern bilan integratsiya
+				- [ ] Ma'lumotlar bazasi bilan integratsiya
+					- [ ] TypeORM
+					- [ ] Prisma bilan Nest integratsiyasi
+					- [ ] Entity va Repository
+				- [ ] Validatsiya
+					- [ ] DTO (Data Transfer Object) tushunchasi
+					- [ ] class-validator va class-transformer
+					- [ ] ValidationPipe
+				- [ ] Pipes
+					- [ ] Built-in Pipes (ParseIntPipe, ValidationPipe)
+					- [ ] Custom Pipe yaratish
+				- [ ] Guards
+					- [ ] Authentication va Authorization uchun Guard
+					- [ ] @UseGuards() decorator
+					- [ ] Custom Guard yaratish
+				- [ ] Interceptors
+					- [ ] Request/Response'ni transformatsiya qilish
+					- [ ] Logging interceptor
+					- [ ] Caching interceptor
+				- [ ] Exception Filters
+					- [ ] Built-in HTTP exceptions
+					- [ ] Custom Exception Filter (@Catch())
+					- [ ] Global exception handling
+				- [ ] Middleware
+					- [ ] Custom middleware yaratish
+					- [ ] Middleware'ni Module'ga bog'lash (configure())
+				- [ ] Autentifikatsiya va Avtorizatsiya
+					- [ ] Passport.js integratsiyasi
+					- [ ] JWT strategy
+					- [ ] Role-based access control (Guards orqali)
+				- [ ] Testing
+					- [ ] Unit testing (Jest, @nestjs/testing)
+					- [ ] E2E testing (Supertest bilan)
+					- [ ] Mocking providers
+				- [ ] WebSockets
+					- [ ] @WebSocketGateway()
+					- [ ] Socket.io integratsiyasi
+				- [ ] Microservices
+					- [ ] Nest'ning microservices qo'llab-quvvatlashi (TCP, Redis, Kafka transport)
+					- [ ] Message pattern (@MessagePattern)
+				- [ ] GraphQL (ixtiyoriy)
+					- [ ] @nestjs/graphql moduli
+					- [ ] Resolver'lar
+				- [ ] Deployment
+					- [ ] Build (nest build)
+					- [ ] Docker bilan konteynerlash
+					- [ ] Environment configuration (@nestjs/config)
+				- [ ] Qo'shimcha
+					- [ ] Swagger/OpenAPI integratsiyasi (@nestjs/swagger)
+					- [ ] Task Scheduling (@nestjs/schedule)
+					- [ ] Caching (@nestjs/cache-manager)
+		- [ ] Java
+			- [ ] Asoslari
+				- [ ] Sintaksis va asosiy tiplar
+					- [ ] Primitive tiplar (int, double, boolean, char va h.k.)
+					- [ ] Wrapper classlar (Integer, Double va h.k.)
+					- [ ] Type casting (implicit/explicit)
+					- [ ] var (local variable type inference, Java 10+)
+				- [ ] Ma'lumotlar tuzilmalari
+					- [ ] Array
+					- [ ] Collections Framework
+						- [ ] List (ArrayList, LinkedList)
+						- [ ] Set (HashSet, TreeSet, LinkedHashSet)
+						- [ ] Map (HashMap, TreeMap, LinkedHashMap)
+						- [ ] Queue/Deque
+					- [ ] Generics
+				- [ ] Boshqaruv oqimi
+					- [ ] if/else, switch (classic va switch expressions, Java 14+)
+					- [ ] for, while, do-while
+					- [ ] Enhanced for (for-each)
+				- [ ] Funksiyalar (Metodlar)
+					- [ ] Method deklaratsiyasi
+					- [ ] Method overloading
+					- [ ] Varargs
+					- [ ] Static va Instance metodlar
+				- [ ] OOP
+					- [ ] Class va Object
+					- [ ] Constructor (default, parametrli, overloading)
+					- [ ] Inheritance (extends, super)
+					- [ ] Polymorphism (method overriding)
+					- [ ] Encapsulation (access modifiers: public, private, protected, default)
+					- [ ] Abstract class
+					- [ ] Interface (default va static metodlar bilan)
+					- [ ] Enum
+					- [ ] Record (Java 14+, data class'ga o'xshash)
+				- [ ] Null bilan ishlash (Kotlin'dan farqi)
+					- [ ] NullPointerException muammosi
+					- [ ] `Optional<T>` class
+					- [ ] Null tekshirish best practices
+				- [ ] Exception Handling
+					- [ ] try/catch/finally
+					- [ ] Checked vs Unchecked exceptions (Kotlin'da yo'q tushuncha)
+					- [ ] Custom exceptions
+					- [ ] try-with-resources
+				- [ ] Functional Interfaces va Lambda (Java 8+)
+					- [ ] Lambda expressions
+					- [ ] Functional interfacelar (Runnable, Supplier, Consumer, Function)
+					- [ ] Method references
+				- [ ] Stream API
+					- [ ] Stream yaratish va operatsiyalar (map, filter, reduce, collect)
+					- [ ] Collectors
+					- [ ] Parallel streams
+				- [ ] Generics (chuqurroq)
+					- [ ] Bounded types (extends, super)
+					- [ ] Wildcard (?)
+				- [ ] Concurrency
+					- [ ] Thread va Runnable
+					- [ ] ExecutorService
+					- [ ] synchronized, Lock
+					- [ ] CompletableFuture
+				- [ ] Modullar va Paketlar
+					- [ ] package tizimi
+					- [ ] import
+					- [ ] Java Platform Module System (JPMS, Java 9+)
+				- [ ] Build vositalari
+					- [ ] Maven asoslari
+					- [ ] Gradle (Kotlin bilan solishtirganda farqi)
+				- [ ] Testing
+					- [ ] JUnit 5
+					- [ ] Mockito
+				- [ ] Best Practices
+					- [ ] JavaBeans konvensiyasi
+					- [ ] equals() va hashCode()
+					- [ ] toString()
+					- [ ] Immutable classlar yaratish
+				- [ ] Kotlin bilan solishtirish (ixtiyoriy, tushunish uchun foydali)
+					- [ ] Nima uchun Kotlin Java sintaksisini soddalashtirgan
+					- [ ] Java-Kotlin interoperability'ni chuqurroq tushunish
+			- [ ] Web asoslari
+				- [ ] HTTP protokoli (Java kontekstida)
+					- [ ] HTTP request/response tuzilishi
+					- [ ] HTTP metodlari (GET, POST, PUT, DELETE)
+					- [ ] Headers, Status kodlar
+				- [ ] Servlet asoslari
+					- [ ] Servlet nima va qanday ishlaydi
+					- [ ] HttpServlet class (doGet, doPost va h.k.)
+					- [ ] Servlet Lifecycle (init, service, destroy)
+					- [ ] ServletContext va ServletConfig
+				- [ ] Request va Response
+					- [ ] HttpServletRequest (parametrlarni o'qish)
+					- [ ] HttpServletResponse (javob yozish)
+					- [ ] Request parametrlari vs Path parametrlari
+				- [ ] Session va State boshqaruvi
+					- [ ] HttpSession
+					- [ ] Cookie'lar bilan ishlash
+					- [ ] Stateless vs Stateful tushunchasi
+				- [ ] Filter va Listener
+					- [ ] Servlet Filter (so'rovni ushlab qolish)
+					- [ ] Listener'lar (ServletContextListener va h.k.)
+				- [ ] Application Server tushunchasi
+					- [ ] Servlet Container (Tomcat, Jetty)
+					- [ ] WAR fayl tuzilishi
+					- [ ] web.xml (deployment descriptor, eski usul)
+				- [ ] JSON bilan ishlash (framework'dan tashqari)
+					- [ ] Serialization/Deserialization tushunchasi
+					- [ ] Jackson kutubxonasi asoslari
+				- [ ] RESTful tamoyillar
+					- [ ] Resource-based URL dizayni
+					- [ ] Statelessness
+					- [ ] HTTP status kodlarini to'g'ri qo'llash
+				- [ ] Autentifikatsiya asoslari (framework'siz)
+					- [ ] Basic Authentication
+					- [ ] Token asoslari (framework'dan mustaqil tushunish)
+				- [ ] Nega Framework kerak (motivatsiya qismi)
+					- [ ] Servlet'ning cheklovlari (boilerplate kod)
+					- [ ] Spring Boot bunday muammolarni qanday hal qilishi (kirish)
+			- [ ] Database
+				- [ ] JDBC (Java Database Connectivity)
+					- [ ] DriverManager va Connection
+					- [ ] Statement vs PreparedStatement
+					- [ ] ResultSet bilan ishlash
+					- [ ] Connection Pooling tushunchasi (HikariCP)
+					- [ ] Transaction boshqaruvi (commit, rollback)
+				- [ ] SQL asoslari (agar hali mustahkam bo'lmasa)
+					- [ ] CRUD so'rovlari
+					- [ ] JOIN turlari
+					- [ ] Indexlar tushunchasi
+				- [ ] ORM tushunchasi (Framework'dan oldingi asos)
+					- [ ] ORM nima va nega kerak (boilerplate SQL'dan qutulish)
+					- [ ] Object-Relational Impedance Mismatch
+				- [ ] Hibernate
+					- [ ] Entity va Annotatsiyalar (@Entity, @Table, @Id)
+					- [ ] Relationship mapping (@OneToMany, @ManyToOne, @ManyToMany)
+					- [ ] Session va SessionFactory
+					- [ ] HQL (Hibernate Query Language)
+					- [ ] Lazy vs Eager loading
+					- [ ] Caching (First-level, Second-level cache)
+				- [ ] JPA (Java Persistence API)
+					- [ ] JPA vs Hibernate farqi (interface vs implementation)
+					- [ ] EntityManager
+					- [ ] JPQL
+					- [ ] Criteria API
+				- [ ] Migratsiyalar
+					- [ ] Flyway
+					- [ ] Liquibase
+				- [ ] Transaction Management (konseptual)
+					- [ ] ACID tamoyillari
+					- [ ] Isolation levels
+					- [ ] Declarative vs Programmatic transactions (Spring'ga ko'prik)
+				- [ ] NoSQL bilan tanishuv (ixtiyoriy)
+					- [ ] MongoDB Java Driver asoslari
+			- [ ] Spring Boot
+				- [ ] Asoslar
+					- [ ] Spring Framework vs Spring Boot farqi
+					- [ ] Auto-configuration tushunchasi
+					- [ ] @SpringBootApplication annotatsiyasi
+					- [ ] application.properties / application.yml
+					- [ ] Starter dependencies (spring-boot-starter-web va h.k.)
+				- [ ] Dependency Injection va IoC
+					- [ ] IoC Container tushunchasi
+					- [ ] @Component, @Service, @Repository, @Controller
+					- [ ] @Autowired (constructor injection tavsiya etiladi)
+					- [ ] Bean Lifecycle
+					- [ ] @Configuration va @Bean
+				- [ ] Web qatlami (Spring MVC)
+					- [ ] @RestController va @Controller farqi
+					- [ ] @RequestMapping, @GetMapping, @PostMapping va h.k.
+					- [ ] @PathVariable va @RequestParam
+					- [ ] @RequestBody va @ResponseBody
+					- [ ] ResponseEntity
+				- [ ] Validatsiya
+					- [ ] Bean Validation (@Valid, @NotNull, @Size va h.k.)
+					- [ ] Custom validator yaratish
+				- [ ] Ma'lumotlar bazasi (Spring Data JPA)
+					- [ ] Spring Data JPA asoslari
+					- [ ] Repository interface (JpaRepository, CrudRepository)
+					- [ ] Query methods (naming convention orqali)
+					- [ ] @Query annotatsiyasi (JPQL/Native SQL)
+					- [ ] Pagination va Sorting
+				- [ ] Autentifikatsiya va Avtorizatsiya (Spring Security)
+					- [ ] Spring Security asoslari
+					- [ ] JWT bilan autentifikatsiya
+					- [ ] UserDetailsService
+					- [ ] Role-based va Method-level security (@PreAuthorize)
+					- [ ] OAuth2 integratsiyasi
+				- [ ] Exception Handling
+					- [ ] @ExceptionHandler
+					- [ ] @ControllerAdvice / @RestControllerAdvice
+					- [ ] Custom exception classlar
+				- [ ] AOP (Aspect-Oriented Programming)
+					- [ ] @Aspect, @Before, @After, @Around
+					- [ ] Logging va Transaction management uchun qo'llanilishi
+				- [ ] Transaction Management
+					- [ ] @Transactional annotatsiyasi
+					- [ ] Propagation va Isolation sozlamalari
+				- [ ] Caching
+					- [ ] @Cacheable, @CacheEvict
+					- [ ] Redis integratsiyasi
+				- [ ] Testing
+					- [ ] @SpringBootTest
+					- [ ] MockMvc
+					- [ ] @DataJpaTest, @WebMvcTest
+					- [ ] Mockito bilan integratsiya
+				- [ ] Async va Scheduling
+					- [ ] @Async
+					- [ ] @Scheduled
+				- [ ] Messaging (ixtiyoriy)
+					- [ ] Spring Kafka / RabbitMQ integratsiyasi
+				- [ ] Actuator
+					- [ ] Health check, Metrics
+					- [ ] Monitoring endpoint'lari
+				- [ ] Deployment
+					- [ ] Executable JAR yaratish
+					- [ ] Docker bilan konteynerlash
+					- [ ] Profile'lar (dev, prod — application-{profile}.yml)
+				- [ ] Qo'shimcha
+					- [ ] Rate Limiting
+					- [ ] Logging (SLF4J + Logback)
+					- [ ] API Versioning
+					- [ ] Swagger/OpenAPI (springdoc-openapi)
+		- [ ] Kotlin
+			- [ ] Asoslar
+				- [ ] (Mobile/Android bo'limidagi Kotlin asoslariga havola — til bir xil)
+				- [ ] Backend uchun qo'shimcha e'tibor
+					- [ ] Coroutines'ning backend kontekstida ishlatilishi
+						- [ ] Server-side concurrency (request'larni parallel qayta ishlash)
+						- [ ] Dispatchers.IO vs Dispatchers.Default farqi
+						- [ ] Structured concurrency (server muhitida)
+					- [ ] Null Safety'ning DB/API qatlamida qo'llanilishi
+						- [ ] Nullable response modellar
+						- [ ] Elvis operator bilan default qiymatlar berish
+					- [ ] Data class'larning DTO/Entity sifatida ishlatilishi
+					- [ ] Sealed class'lar bilan Result/Error handling
+						- [ ] `Result<T>` pattern (muvaffaqiyat/xato holatlarini ifodalash)
+					- [ ] Extension functions bilan DB/HTTP qatlamlarini kengaytirish
+					- [ ] Kotlin Serialization
+						- [ ] kotlinx.serialization asoslari
+						- [ ] JSON serialization/deserialization
+					- [ ] Gradle bilan backend loyihasini sozlash
+						- [ ] Kotlin DSL (build.gradle.kts)
+						- [ ] Dependency management
+			- [ ] Ktor
+				- [ ] Asoslar
+					- [ ] Server yaratish (embeddedServer)
+					- [ ] Application module va Plugin tizimi
+					- [ ] Routing (routing { } bloki)
+					- [ ] Route parametrlari va Query stringlar
+					- [ ] Request/Response obyektlari (call.receive, call.respond)
+				- [ ] Routing tashkil qilish
+					- [ ] Nested routes
+					- [ ] Route grouping (route("/api") { })
+					- [ ] Modular route fayllar
+				- [ ] Serialization
+					- [ ] ContentNegotiation plugin
+					- [ ] kotlinx.serialization bilan JSON
+				- [ ] Dependency Injection
+					- [ ] Koin bilan integratsiya
+					- [ ] Manual DI (constructor injection)
+				- [ ] Ma'lumotlar bazasi bilan integratsiya
+					- [ ] Exposed ORM
+					- [ ] Ktor + PostgreSQL/MySQL ulanishi
+					- [ ] Connection pooling (HikariCP)
+				- [ ] Autentifikatsiya va Avtorizatsiya
+					- [ ] Authentication plugin
+					- [ ] JWT bilan autentifikatsiya
+					- [ ] Session-based auth
+					- [ ] Role-based access control
+				- [ ] Middleware/Plugins
+					- [ ] Built-in pluginlar (CORS, Compression, CallLogging)
+					- [ ] Custom plugin yozish
+					- [ ] StatusPages (error handling)
+				- [ ] Validatsiya
+					- [ ] Request validation (custom yoki kutubxona orqali)
+				- [ ] Coroutines bilan Async ishlash
+					- [ ] Suspend function'lar route handler'larda
+					- [ ] Concurrent so'rovlarni boshqarish
+				- [ ] Testing
+					- [ ] Ktor Test Engine (testApplication)
+					- [ ] Mocking (MockK)
+				- [ ] WebSockets
+				- [ ] File Upload/Download
+				- [ ] Background Jobs
+					- [ ] Coroutine-based scheduled tasks
+				- [ ] Deployment
+					- [ ] Fat JAR yaratish (Gradle shadow plugin)
+					- [ ] Docker bilan konteynerlash
+					- [ ] Environment variables (application.conf, HOCON format)
+				- [ ] Qo'shimcha
+					- [ ] Rate Limiting
+					- [ ] Caching
+					- [ ] Logging (Logback integratsiyasi)
+					- [ ] Versioning (API versiyalash)
+			- [ ] Spring Boot (Kotlin-specific qo'shimchalar)
+				- [ ] (Asosiy Spring Boot konsepsiyalari — Java bo'limidagi Spring Boot'ga bog'liq, u yerda batafsil yozilgan)
+				- [ ] Kotlin bilan loyihani sozlash
+					- [ ] kotlin-spring Gradle plugin (all-open, no-arg)
+					- [ ] Nega Kotlin classlar default'da "final" (Spring proxy muammosi)
+					- [ ] build.gradle.kts sozlamalari
+				- [ ] Null Safety'ning Spring'da qo'llanilishi
+					- [ ] Nullable vs Non-nullable Entity maydonlari
+					- [ ] Kotlin bilan Bean Validation (@field:NotNull kabi target belgilash)
+				- [ ] Data class'lar Spring kontekstida
+					- [ ] Data class'ni DTO/Request-Response modeli sifatida ishlatish
+					- [ ] Data class'ning JPA Entity sifatida ishlatilishidagi muammolar (nega tavsiya etilmaydi)
+					- [ ] Entity uchun oddiy class + data class DTO ajratish tavsiyasi
+				- [ ] Constructor Injection Kotlin uslubida
+					- [ ] Primary constructor orqali DI (@Autowired shart emas)
+					- [ ] val bilan immutable dependency'lar
+				- [ ] Coroutines va Spring
+					- [ ] Spring WebFlux + Coroutines (suspend fun controller'larda)
+					- [ ] Kotlin Coroutines vs Reactor (Mono/Flux) farqi
+					- [ ] Coroutine bilan Repository (CoroutineCrudRepository)
+				- [ ] Extension functions bilan kod qisqartirish
+					- [ ] Mapper funksiyalarni extension sifatida yozish (Entity.toDto())
+				- [ ] Sealed class bilan Response/Error modellashtirish
+					- [ ] Result wrapper pattern (muvaffaqiyat/xato holatlari)
+				- [ ] Testing farqlari
+					- [ ] MockK (Mockito o'rniga Kotlin-friendly)
+					- [ ] Kotlin bilan @SpringBootTest yozish uslubi
+				- [ ] Qo'shimcha
+					- [ ] Jackson Kotlin Module (jackson-module-kotlin) — data class serialization uchun zarur
+					- [ ] Kotlin DSL bilan konfiguratsiya (agar ishlatilsa)
+	- [ ] AI
+		- [ ] python
+			- [ ] AI uchun kerakli Python asoslari
+				- [ ] Sintaksis va tiplar (agar hali o'rganilmagan bo'lsa)
+				- [ ] List/Dict comprehensions
+				- [ ] Funksiyalar va Lambda
+				- [ ] OOP asoslari (class, inheritance)
+				- [ ] Generators va Iterators (katta ma'lumot bilan ishlash uchun)
+				- [ ] Decorators (ba'zi kutubxonalarda uchraydi)
+				- [ ] Virtual environment (venv, conda, poetry)
+				- [ ] Fayl bilan ishlash (CSV, JSON, va h.k.)
+		- [ ] ML
+			- [ ] Matematik asos (amaliy darajada)
+				- [ ] Chiziqli algebra (vektor, matritsa, dot product)
+				- [ ] Statistika va Ehtimollar nazariyasi (taqsimotlar, Bayes teoremasi)
+				- [ ] Calculus (gradient, hosila — optimallashtirish uchun)
+			- [ ] Kutubxonalar
+				- [ ] NumPy
+				- [ ] Pandas
+				- [ ] Matplotlib / Seaborn
+			- [ ] ML asoslari
+				- [ ] Supervised vs Unsupervised vs Reinforcement Learning
+				- [ ] Train/Test/Validation split
+				- [ ] Overfitting va Underfitting
+				- [ ] Bias-Variance tradeoff
+			- [ ] Data Preprocessing
+				- [ ] Missing values bilan ishlash
+				- [ ] Encoding (One-Hot, Label Encoding)
+				- [ ] Scaling/Normalization
+				- [ ] Feature Engineering
+				- [ ] Feature Selection
+			- [ ] scikit-learn (klassik algoritmlar)
+				- [ ] Regression (Linear, Ridge, Lasso, Logistic)
+				- [ ] Classification (Decision Tree, Random Forest, SVM, KNN, Naive Bayes)
+				- [ ] Clustering (K-Means, DBSCAN, Hierarchical)
+				- [ ] Dimensionality Reduction (PCA)
+				- [ ] Ensemble methods (Bagging, Boosting — XGBoost, LightGBM)
+			- [ ] Model baholash
+				- [ ] Accuracy, Precision, Recall, F1-score
+				- [ ] Confusion Matrix
+				- [ ] ROC-AUC
+				- [ ] Cross-validation
+				- [ ] Hyperparameter tuning (GridSearch, RandomSearch, Optuna)
+			- [ ] Qo'shimcha
+				- [ ] Kaggle'da amaliyot (real datasetlar bilan ishlash)
+				- [ ] Time Series asoslari (agar kerak bo'lsa)
+		- [ ] DL
+			- [ ] Neural Network asoslari
+				- [ ] Perceptron va Activation functions (ReLU, Sigmoid, Softmax)
+				- [ ] Forward pass va Backpropagation
+				- [ ] Loss functions (MSE, Cross-Entropy)
+				- [ ] Gradient Descent va variantlari (SGD, Adam)
+			- [ ] PyTorch (yoki TensorFlow/Keras)
+				- [ ] Tensor operatsiyalari va Autograd
+				- [ ] nn.Module bilan model qurish
+				- [ ] Training/Validation loop
+				- [ ] GPU bilan ishlash (CUDA)
+			- [ ] CNN (Convolutional Neural Networks)
+				- [ ] Convolution, Pooling qatlamlari
+				- [ ] Rasm klassifikatsiyasi (ResNet, VGG kabi arxitekturalar tushunchasi)
+			- [ ] RNN/LSTM
+				- [ ] Ketma-ketlik ma'lumotlari bilan ishlash
+				- [ ] Vanishing gradient muammosi
+			- [ ] Transformer arxitekturasi (AI Engineer'ga ko'prik)
+				- [ ] Attention mexanizmi (Self-Attention, Multi-Head Attention)
+				- [ ] Encoder-Decoder tuzilmasi
+				- [ ] Positional Encoding
+				- [ ] BERT/GPT arxitekturalarining farqi
+			- [ ] Transfer Learning
+				- [ ] Pretrained modellardan foydalanish
+				- [ ] Fine-tuning asoslari (AI Engineer'dagi LoRA'ga zamin)
+			- [ ] Regularization
+				- [ ] Dropout, Batch Normalization
+				- [ ] Early stopping
+		- [ ] AI Engineer
+			- [ ] LLM asoslari
+				- [ ] Tokenization
+				- [ ] Context window tushunchasi
+				- [ ] Temperature, Top-p va boshqa sampling parametrlari
+				- [ ] Prompt Engineering
+					- [ ] Zero-shot / Few-shot prompting
+					- [ ] Chain-of-Thought prompting
+					- [ ] System prompt dizayni
+			- [ ] LLM API'lar bilan ishlash
+				- [ ] OpenAI / Anthropic / boshqa provayderlar API'si
+				- [ ] Function calling / Tool use
+				- [ ] Structured outputs (JSON mode)
+				- [ ] Streaming responses
+				- [ ] Multi-turn conversation boshqaruvi
+			- [ ] Embeddings
+				- [ ] Embedding modellari (OpenAI, Sentence Transformers)
+				- [ ] Semantic similarity (cosine similarity)
+			- [ ] RAG (Retrieval-Augmented Generation)
+				- [ ] Vector Database (Pinecone, Chroma, Weaviate, Qdrant)
+				- [ ] Chunking strategiyalari
+				- [ ] Retrieval texnikalari (dense, sparse, hybrid search)
+				- [ ] Reranking
+				- [ ] RAG pipeline optimizatsiyasi
+			- [ ] Agentlar va Orkestratsiya
+				- [ ] LangChain / LlamaIndex
+				- [ ] Multi-agent tizimlar
+				- [ ] Agent Memory (short-term/long-term)
+				- [ ] ReAct pattern (Reasoning + Acting)
+				- [ ] MCP (Model Context Protocol) tushunchasi
+			- [ ] Fine-tuning
+				- [ ] LoRA / QLoRA
+				- [ ] Dataset tayyorlash va formatlash
+				- [ ] Full fine-tuning vs PEFT
+			- [ ] SLM (Small Language Models)
+				- [ ] Lokal modellarni ishga tushirish (Ollama, llama.cpp, LM Studio)
+				- [ ] Quantization (GGUF, GPTQ)
+				- [ ] Kichik modellarni tanlash mezonlari
+			- [ ] Evaluation
+				- [ ] LLM javoblarini baholash metrikalari
+				- [ ] Human-in-the-loop evaluation
+				- [ ] A/B testing prompt'lar uchun
+			- [ ] Xavfsizlik va Cheklovlar
+				- [ ] Prompt Injection'dan himoya
+				- [ ] Guardrails (input/output filtering)
+				- [ ] Hallucination'ni kamaytirish strategiyalari
+		- [ ] MLOps
+			- [ ] Experiment Tracking
+				- [ ] MLflow
+				- [ ] Weights & Biases
+			- [ ] Data Pipeline
+				- [ ] ETL asoslari
+				- [ ] Data versioning (DVC)
+				- [ ] Feature Store tushunchasi
+			- [ ] Model Training Pipeline
+				- [ ] Hyperparameter optimization pipeline
+				- [ ] Distributed training asoslari
+				- [ ] Reproducibility (seed, environment)
+			- [ ] Model Versioning va Registry
+				- [ ] Model versioning strategiyalari
+				- [ ] Model Registry (MLflow Model Registry)
+			- [ ] Model Serving
+				- [ ] FastAPI orqali serving
+				- [ ] TorchServe / TensorFlow Serving
+				- [ ] Batch vs Real-time inference
+			- [ ] LLMOps (AI Engineer bilan bog'liq qism)
+				- [ ] Prompt versioning
+				- [ ] Vector Database boshqaruvi (indexing, updating)
+				- [ ] Token/Cost monitoring
+				- [ ] LLM response caching
+			- [ ] Deployment
+				- [ ] Docker bilan konteynerlash
+				- [ ] Kubernetes asoslari (model serving uchun)
+				- [ ] CI/CD pipeline (model uchun)
+			- [ ] Monitoring
+				- [ ] Model Drift va Data Drift
+				- [ ] Performance monitoring (latency, throughput)
+				- [ ] Retraining triggerlari va avtomatlashtirish
+			- [ ] A/B Testing
+				- [ ] Model versiyalarini solishtirish
+				- [ ] Canary deployment
+	- [ ] General
+		- [ ] Version Control
+			- [ ] Git
+				- [ ] Asosiy komandalar (init, add, commit, push, pull)
+				- [ ] Branching va Merging
+				- [ ] Rebase vs Merge
+				- [ ] Conflict resolution
+				- [ ] Stash, Cherry-pick, Reset vs Revert
+				- [ ] Git hooks
+				- [ ] Commit message konvensiyalari (Conventional Commits)
+			- [ ] GitHub
+				- [ ] Pull Request workflow
+				- [ ] Code Review jarayoni
+				- [ ] Issues va Project boards
+				- [ ] GitHub Actions (CI/CD uchun asos)
+				- [ ] Fork va Contribution workflow (open source)
+				- [ ] Branch protection rules
+		- [ ] Clean Code
+			- [ ] Nomlash konvensiyalari (meaningful names)
+			- [ ] Funksiya yozish tamoyillari (kichik, bitta vazifa)
+			- [ ] Kommentariya yozish qoidalari (qachon kerak, qachon kerak emas)
+			- [ ] DRY (Don't Repeat Yourself)
+			- [ ] KISS (Keep It Simple, Stupid)
+			- [ ] YAGNI (You Aren't Gonna Need It)
+			- [ ] Code smell'larni aniqlash
+			- [ ] Refactoring texnikalari
+		- [ ] SOLID Principles
+			- [ ] Single Responsibility Principle
+			- [ ] Open/Closed Principle
+			- [ ] Liskov Substitution Principle
+			- [ ] Interface Segregation Principle
+			- [ ] Dependency Inversion Principle
+		- [ ] Design Patterns
+			- [ ] Creational (Singleton, Factory, Builder)
+			- [ ] Structural (Adapter, Decorator, Facade)
+			- [ ] Behavioral (Observer, Strategy, Command)
+			- [ ] Anti-patterns (nimalardan qochish kerak)
+		- [ ] Architecture
+			- [ ] Clean Architecture
+				- [ ] Layer'lar (Entities, Use Cases, Interface Adapters, Frameworks)
+				- [ ] Dependency Rule
+			- [ ] MVC / MVP / MVVM (umumiy tushuncha, har bir stackda qo'llanilishi farq qiladi)
+			- [ ] Monolith vs Microservices
+			- [ ] Layered Architecture
+			- [ ] Event-Driven Architecture
+			- [ ] Domain-Driven Design (DDD) asoslari
+		- [ ] Data Structures & Algorithms
+			- [ ] Asosiy strukturalar (Array, Linked List, Stack, Queue, Hash Map, Tree, Graph)
+			- [ ] Sorting algoritmlari
+			- [ ] Searching algoritmlari
+			- [ ] Big O notation (Time/Space complexity)
+			- [ ] Recursion
+			- [ ] Dynamic Programming asoslari
+		- [ ] Database
+			- [ ] Database asoslari
+				- [ ] Ma'lumotlar bazasi turlari
+					- [ ] Relational (SQL) vs Non-relational (NoSQL) farqi
+					- [ ] Qachon qaysi birini tanlash kerak
+				- [ ] SQL asoslari
+					- [ ] CRUD so'rovlari (SELECT, INSERT, UPDATE, DELETE)
+					- [ ] JOIN turlari (INNER, LEFT, RIGHT, FULL)
+					- [ ] Aggregate funksiyalar (COUNT, SUM, AVG, GROUP BY, HAVING)
+					- [ ] Subqueries va CTE (WITH)
+					- [ ] Indexlar (nima uchun va qanday ishlaydi)
+					- [ ] Constraints (Primary Key, Foreign Key, Unique, Check)
+				- [ ] Ma'lumotlar modellashtirish
+					- [ ] Normalization (1NF, 2NF, 3NF)
+					- [ ] Denormalization (qachon kerak)
+					- [ ] ER diagram (Entity-Relationship)
+					- [ ] Relationship turlari (One-to-One, One-to-Many, Many-to-Many)
+				- [ ] Transaction va ACID
+					- [ ] Atomicity, Consistency, Isolation, Durability
+					- [ ] Isolation levels (Read Uncommitted, Read Committed, Repeatable Read, Serializable)
+					- [ ] Deadlock tushunchasi
+				- [ ] NoSQL turlari (umumiy tushuncha)
+					- [ ] Document-based (MongoDB)
+					- [ ] Key-Value (Redis)
+					- [ ] Column-based (Cassandra)
+					- [ ] Graph DB (Neo4j)
+					- [ ] NoSQL vs SQL: CAP theorem nuqtai nazaridan
+				- [ ] Performance va Optimizatsiya (konseptual)
+					- [ ] Query optimization mantig'i
+					- [ ] N+1 query muammosi
+					- [ ] Connection Pooling tushunchasi
+				- [ ] Scaling (konseptual)
+					- [ ] Replication (Master-Slave, Master-Master)
+					- [ ] Sharding
+					- [ ] Read replicas
+				- [ ] Migratsiyalar (konseptual)
+					- [ ] Schema versioning tushunchasi
+					- [ ] Migration tool'lar umumiy mantig'i
+				- [ ] Backup va Recovery asoslari
+				- [ ] Caching qatlami
+					- [ ] Redis/Memcached bilan DB oldida keshlash
+					- [ ] Cache invalidation strategiyalari
+			- [ ] PostgreSQL (eng ko'p ishlatiladigan tizim, chuqur)
+				- [ ] O'rnatish va psql orqali ulanish
+				- [ ] Ma'lumotlar tiplari (SERIAL, TEXT, JSONB, ARRAY, UUID va h.k.)
+				- [ ] Indexlar
+					- [ ] B-tree, Hash, GIN, GiST indexlar
+					- [ ] Partial va Composite indexlar
+				- [ ] JSONB bilan ishlash (semi-structured data)
+				- [ ] Window Functions
+				- [ ] Full-Text Search
+				- [ ] EXPLAIN ANALYZE bilan query optimizatsiya
+				- [ ] Views va Materialized Views
+				- [ ] Stored Procedures va Functions (PL/pgSQL)
+				- [ ] Triggers
+				- [ ] Extensions (PostGIS, pg_trgm va h.k.)
+				- [ ] Replication (Streaming Replication)
+				- [ ] Backup vositalari (pg_dump, pg_restore)
+				- [ ] Connection Pooling amaliyoti (PgBouncer)
+				- [ ] Performance tuning (postgresql.conf sozlamalari)
+		- [ ] System Design
+			- [ ] Scalability tushunchalari (Vertical vs Horizontal scaling)
+			- [ ] Load Balancing
+			- [ ] Caching strategiyalari
+			- [ ] Database sharding va replication
+			- [ ] CAP theorem
+			- [ ] Message Queues (RabbitMQ, Kafka asoslari)
+			- [ ] API Design (REST, GraphQL, gRPC farqi)
+			- [ ] Rate Limiting va Throttling
+		- [ ] Testing
+			- [ ] Test turlari (Unit, Integration, E2E)
+			- [ ] TDD (Test-Driven Development)
+			- [ ] BDD (Behavior-Driven Development)
+			- [ ] Mocking va Stubbing tushunchasi
+			- [ ] Test Coverage
+		- [ ] CI/CD
+			- [ ] Continuous Integration tushunchasi
+			- [ ] Continuous Deployment vs Continuous Delivery
+			- [ ] Pipeline yaratish (build, test, deploy bosqichlari)
+			- [ ] GitHub Actions / GitLab CI / Jenkins asoslari
+			- [ ] Environment'lar (dev, staging, production)
+		- [ ] Networking asoslari
+			- [ ] HTTP/HTTPS protokoli
+			- [ ] REST tamoyillari
+			- [ ] WebSocket
+			- [ ] DNS tushunchasi
+			- [ ] TCP/IP asoslari (umumiy)
+		- [ ] Xavfsizlik asoslari
+			- [ ] OWASP Top 10
+			- [ ] Authentication vs Authorization
+			- [ ] Encryption asoslari (symmetric/asymmetric)
+			- [ ] HTTPS/SSL/TLS
+			- [ ] Common vulnerabilities (SQL Injection, XSS, CSRF)
+		- [ ] Agile va Jamoaviy ish
+			- [ ] Scrum asoslari (Sprint, Standup, Retrospective)
+			- [ ] Kanban
+			- [ ] User Stories va Story Points
+			- [ ] Code Review madaniyati
+		- [ ] Dokumentatsiya
+			- [ ] README yozish
+			- [ ] API dokumentatsiyasi (Swagger/OpenAPI)
+			- [ ] Technical Writing asoslari
+			- [ ] Diagramma chizish (UML, Sequence diagram, ER diagram)
+		- [ ] Terminal va Muhit
+			- [ ] Command Line asoslari (bash/zsh)
+			- [ ] Shell scripting asoslari
+			- [ ] SSH
+			- [ ] Environment variables va .env fayllar

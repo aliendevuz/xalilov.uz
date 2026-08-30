@@ -1,0 +1,25 @@
+# Projects
+
+Shaxsiy va founderlik loyihalari. Har bir slug — [docs/projects/](/docs/projects/) ichidagi loyiha yozuvi.
+
+- [ ] [xalilov](/docs/projects/xalilov.md) — shaxsiy veb sayt
+- [ ] [hello-world](/docs/projects/hello-world.md) — ta'lim platformasi, lova singari asta sekin
+- [ ] lova — shaxsiy brend ostida mobil ilovalar, sekin asta rivojlantiraman
+	- [ ] [declock](/docs/projects/declock.md) — shunchaki qiziqarli kichik loyiha
+	- [ ] [bozorlik](/docs/projects/bozorlik.md) — bozorga borishdan oldin ro'yxat qilishga yordamchi app
+	- [ ] words
+		- [x] [4000-words](/docs/projects/4000-words.md) — hozir ishlab turgan loyiham
+		- [ ] [words-pro](/docs/projects/words-pro.md) — eski loyihamni upgrade versiyasi kelajakda
+		- [ ] [uniwords](/docs/projects/uniwords.md) — eski loyihamni globallashgan versiyasi
+	- [ ] samarador
+		- [ ] [samarador-v1](/docs/projects/samarador-v1.md) — shunchaki kirim chiqimlarni hisoblash uchun app
+		- [ ] [samarador-v2](/docs/projects/samarador-v2.md) — maqsad qo'yish va pul jamg'arish gamifikatsiya asosida
+		- [ ] [samarador-v3](/docs/projects/samarador-v3.md) — plan A: real to'lov tizimlari bilan hamkorlik yoki sotish; plan B: xalqaro bozorga moslashtirish
+	- [ ] [anketa](/docs/projects/anketa.md)
+	- [ ] [tutor-ai](/docs/projects/tutor-ai.md)
+- [ ] geyms — games so'zidan olingan vaqtincha nom, lovadan keyingi loyiham
+	- [x] [mazgi](/docs/projects/mazgi.md) — o'zim o'ylab topgan o'yin
+	- [x] [sudoku](/docs/projects/sudoku.md) — o'zimni talqinimda
+	- [ ] [kosmik-missiya](/docs/projects/kosmik-missiya.md) — alien invadersdan ilhomlanib, o'zimni talqinimda
+	- [ ] [farqni-top](/docs/projects/farqni-top.md) — klassik o'yin
+	- [ ] [chertish](/docs/projects/chertish.md)

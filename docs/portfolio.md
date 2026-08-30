@@ -1,0 +1,53 @@
+# Portfolio
+
+Yo'nalishlar bo'yicha indeks. Har bir slug — [docs/projects/](/docs/projects/) ichidagi loyiha yozuvi.
+
+Belgilar: `?` — loyiha hali tanlanmagan · `-` — rejada yo'q
+
+- [ ] Mobile
+	- [x] Android
+		- [ ] [4000-words](/docs/projects/4000-words.md)
+		- [ ] [sudoku](/docs/projects/sudoku.md)
+		- [ ] [python-ide](/docs/projects/python-ide.md)
+	- [ ] Flutter
+		- [ ] ?
+- [ ] Frontend
+	- [x] Vanilla
+		- [x] [mazgi](/docs/projects/mazgi.md)
+	- [ ] React
+		- [ ] ?
+	- [ ] Next
+		- [ ] [4000-uz](/docs/projects/4000-uz.md)
+		- [ ] [xalilov](/docs/projects/xalilov.md)
+	- [ ] Vue
+		- [ ] ?
+	- [ ] Nuxt
+		- [ ] -
+- [ ] Backend
+	- [ ] Python
+		- [ ] Asoslari
+			- [x] [snake](/docs/projects/snake.md)
+			- [x] [ascii-video](/docs/projects/ascii-video.md)
+		- [ ] FastAPI
+			- [ ] ?
+	- [ ] TypeScript
+		- [ ] Express
+			- [ ] ?
+	- [ ] Java
+		- [ ] Spring Boot
+			- [ ] ?
+	- [ ] Kotlin
+		- [ ] Ktor
+			- [ ] ?
+		- [ ] Spring Boot
+			- [ ] -
+- [ ] AI
+	- [ ] ML Engineer
+		- [ ] -
+	- [ ] AI Engineer
+		- [ ] [salesman](/docs/projects/salesman.md)
+- [ ] Telegram
+	- [ ] Bot
+		- [ ] ?
+	- [ ] Mini App
+		- [ ] ?
